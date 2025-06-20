@@ -1,0 +1,41 @@
+---
+// src/layouts/BlogLayout.astro
+
+// Import the <Head /> component for metadata/SEO
+import Head from "../components/Head.astro";
+
+// Destructure props passed from the markdown frontmatter
+const { title, description, canonical } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <Head title={title} description={description} canonical={canonical} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Your global CSS -->
+    <style is:global>
+      @import "../styles/css-reset.css";
+      @import "../styles/variables.css";
+      @import "../styles/styles.css";
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="skip-link">Skip to content</a>
+      <h1>{title}</h1>
+    </header>
+
+    <main id="main-content" role="main">
+      <article class="blog-post">
+        <slot />
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; {new Date().getFullYear()} Ginger Kiwi</p>
+    </footer>
+  </body>
+</html>

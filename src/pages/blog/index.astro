@@ -1,0 +1,52 @@
+---
+import "../styles/css-reset.css";
+import "../styles/variables.css";
+import "../styles/styles.css";
+
+// Dynamically import all markdown posts
+const postModules = import.meta.glob('./**/*.md', { eager: true });
+
+// Transform modules into an array of post data
+const posts = Object.entries(postModules).map(([path, module]) => {
+  const { title, description, pubDate, canonical, coverImage } = (module as any).frontmatter;
+  const url = path
+    .replace('./', '/blog/')
+    .replace(/\.md$/, '/');
+  return { title, description, pubDate, canonical, coverImage, url };
+});
+
+// Sort by date descending
+posts.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog | Ginger Kiwi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <main id="main-content">
+      <h1>Blog</h1>
+
+      <!-- SECTION: POSTS -->
+      <section class="section--posts" id="posts">
+        <div class="posts--grid">
+          {posts.map(post => (
+            <div class="card--posts" key={post.url}>
+              {post.coverImage && (
+                <img src={post.coverImage} alt={`Cover image for ${post.title}`} class="card--posts-image" />
+              )}
+              <h3 class="heading--post-name">{post.title}</h3>
+              <div class="post--content">
+                <p>{post.description}</p>
+              </div>
+              <a href={post.url} class="a--cta-post">Continue reading</a>
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

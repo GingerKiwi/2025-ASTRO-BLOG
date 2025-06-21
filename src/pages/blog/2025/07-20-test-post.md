@@ -6,8 +6,6 @@ canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
 coverImage: "/assets/00_DuckDebugging_Cool_1200x630.png"
 layout: ../../../layouts/BlogLayout.astro
 ---
-<!-- # Test Post -->
-
 Cat ipsum dolor sit amet, mouser or himalayan siamese. Thai. Sphynx. Lynx tomcat, but panther or burmese or leopard so burmese malkin.
 
 ## Bengal Cornish Rex

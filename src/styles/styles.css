@@ -577,3 +577,43 @@ footer nav ul {
 	justify-self: center;
 	padding: 2rem 0;
 }
+
+/* PAGES CSS */
+
+/* Blog Posts */
+
+article.blog-post {
+	max-width: 65em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
+
+  /* Apply to paragraphs inside blog posts */
+.blog-post p {
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+}
+
+/* Ensure consistent spacing between headings and text */
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Unordered list styling */
+.blog-post ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* List item spacing */
+.blog-post li {
+  margin-bottom: 0.5em;
+}
+

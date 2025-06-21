@@ -2,24 +2,15 @@
 import Head from "../components/Head.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { formatDate } from "../utils/formatDate.js"; // You’ll create this helper
 
-const { title, description, canonical, coverImage } = Astro.props;
+// Props from Markdown frontmatter
+const { title, description, canonical, coverImage, imageAlt, pubDate } = Astro.props;
 ---
-
-<!-- ---
-import { Image } from '@astrojs/image/components';
-import Head from "../components/Head.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-
-const { title, description, canonical, coverImage } = Astro.props;
---- -->
 
 <html lang="en">
   <head>
     <Head title={title} description={description} canonical={canonical} />
-
-    <!-- Load your global styles -->
     <style is:global>
       @import "../styles/css-reset.css";
       @import "../styles/variables.css";
@@ -29,23 +20,29 @@ const { title, description, canonical, coverImage } = Astro.props;
 
   <body>
     <Header />
-
     <main id="main-content" role="main">
-        <article class="blog-post">
-          {title && <h1>{title}</h1>}
-  
+      <article class="blog-post">
+        <header>
+          <h1>{title}</h1>
+          {pubDate && <p class="post-date">{formatDate(pubDate)}</p>}
           {coverImage && (
             <img
               src={coverImage}
-              alt={`Cover image for the article titled ${title}`}
-              class="blog-post--cover-image"
+              alt={imageAlt || `Cover image for the article titled ${title}`}
+              width="1200"
+              height="630"
               loading="lazy"
+              decoding="async"
+              class="cover-image"
             />
-          )}    
-        <slot />
+          )}
+        </header>
+
+        <section class="post-content">
+          <slot />
+        </section>
       </article>
     </main>
-
     <Footer />
   </body>
 </html>

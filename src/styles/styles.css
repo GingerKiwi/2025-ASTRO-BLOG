@@ -596,6 +596,12 @@ article.blog-post {
   margin-bottom: 1.25em;
 }
 
+.post-date {
+	font-size: 1rem;
+	margin-bottom: 1em;
+	color: var(--clr-dark-deep-brown);
+  }
+
 /* Ensure consistent spacing between headings and text */
 .blog-post h1,
 .blog-post h2,

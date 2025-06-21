@@ -3,8 +3,9 @@ title: "Test Post"
 description: "This is a test post."
 pubDate: 2025-07-20
 canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
-coverImage: "../public/assets/00_DuckDebugging_Cool_1200x630.png"
-layout: ../../../layouts/BlogLayout.astro
+coverImage: "/assets/00_DuckDebugging_Cool_1200x630.png"
+imageAlt: "Cool duck image with a magnifying glass"
+layout: ~/layouts/BlogLayout.astro
 ---
 Cat ipsum dolor sit amet, mouser or himalayan siamese. Thai. Sphynx. Lynx tomcat, but panther or burmese or leopard so burmese malkin.
 

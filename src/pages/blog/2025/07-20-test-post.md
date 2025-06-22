@@ -5,8 +5,10 @@ pubDate: 2025-07-20
 canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
 coverImage: "/assets/00_DuckDebugging_Cool_1200x630.png"
 imageAlt: "Cool duck image with a magnifying glass"
-layout: ~/layouts/BlogLayout.astro
+layout: ../../../layouts/BlogLayout.astro
 ---
+**This is a test post. Please enjoy the Catipsum!**
+
 Cat ipsum dolor sit amet, mouser or himalayan siamese. Thai. Sphynx. Lynx tomcat, but panther or burmese or leopard so burmese malkin.
 
 ## Bengal Cornish Rex
@@ -15,9 +17,13 @@ Munchkin kitten yet malkin. Norwegian forest cougar manx puma ocicat and himalay
 
 Devonshire rex balinese puma or devonshire rex tomcat british shorthair birman. Jaguar tiger, and kitty egyptian mau and mouser, for leopard birman. Thai mouser or russian blue grimalkin. Himalayan. Devonshire rex sphynx.
 
+![Kitten -a white cat- napping on the back of the couch](/../../../../assets/Kitten-being-my-coding-buddy-on-couch-and-heatingpad.jpg "White cat")
+
+
 Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese so devonshire rex. Scottish fold sphynx malkin. Kitty. Ocicat. Tomcat scottish fold. Abyssinian american bobtail, for grimalkin. Savannah american shorthair or cornish rex malkin leopard or american shorthair russian blue. Norwegian forest donskoy. Siberian persian american shorthair, but devonshire rex. Kitten. Ragdoll cougar scottish fold. Siberian norwegian forest. Leopard cornish rex and ocicat. Manx mouser. Puma himalayan.
 
 ```html
+<!-- This is a test code block -->
 <footer>
 			<nav aria-label="secondary navigation" class="nav--secondary">
 				<ul>

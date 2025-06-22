@@ -52,10 +52,12 @@ section {
 .p-underconstruction {
 	font-size: 1.5rem;
 	font-weight: 600;
-	margin: auto;
-	max-width: 80%;
-	text-align: center;
-}
+	margin: 2em auto;
+	max-width: 35em;     /* ~40 characters per line for typical fonts */
+	text-align: left;    /* Improves readability */
+	line-height: 1.6;    /* Comfortable line spacing */
+  }
+  
 
 /* HEADER SECTION */
 

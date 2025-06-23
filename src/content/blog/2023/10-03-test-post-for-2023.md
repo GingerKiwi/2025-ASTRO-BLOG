@@ -1,13 +1,12 @@
 ---
-title: "Test Post for 2022"
-description: "This is a test post for 2022."
-pubDate: 2022-01-12
-canonical: https://gingerkiwi.blog/blog/2024/01-12-test-post-for-2022/
-coverImage: "/assets/GK Blog 11ty Design with Boo.png"
-imageAlt: "11ty blog screenshot"
-layout: ../../../layouts/BlogLayout.astro
+title: "Test Post for 2023"
+description: "This is a test post for 2023."
+pubDate: 2023-10-03
+canonical: https://gingerkiwi.blog/blog/2023/10-03-test-post-for-2023/
+coverImage: "/assets/YarnHelp3-0.png"
+imageAlt: "Yarn Help screenshot"
 ---
-**This is a test post 2022. Please enjoy the Catipsum!**
+**This is a test post 2023. Please enjoy the Catipsum!**
 
 Cat ipsum dolor sit amet, mouser or himalayan siamese. Thai. Sphynx. Lynx tomcat, but panther or burmese or leopard so burmese malkin.
 

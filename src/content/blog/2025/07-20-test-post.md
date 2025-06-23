@@ -5,7 +5,6 @@ pubDate: 2025-07-20
 canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
 coverImage: "/assets/design-ai-ginger-droid.png"
 imageAlt: "AI droid"
-layout: ../../../layouts/BlogLayout.astro
 ---
 **This is a test post 2025. Please enjoy the Catipsum!**
 

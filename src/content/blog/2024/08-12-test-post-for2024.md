@@ -5,7 +5,6 @@ pubDate: 2024-08-12
 canonical: https://gingerkiwi.blog/blog/2024/08-12-test-post-for-2024/
 coverImage: "/assets/00_DuckDebugging_Cool_1200x630.png"
 imageAlt: "Cool duck image with a magnifying glass"
-layout: ../../../layouts/BlogLayout.astro
 ---
 **This is a test post 2024. Please enjoy the Catipsum!**
 

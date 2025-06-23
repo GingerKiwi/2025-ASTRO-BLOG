@@ -1,13 +1,17 @@
 ---
 import type { GetStaticPaths } from "astro";
 // src/pages/blog/[...slug].astro
-import BlogLayout from '../layouts/BlogLayout.astro';
+// => /blog/[slug] => /blog/2024/01-01-test
+import BlogLayout from '../../layouts/BlogLayout.astro';
 import { getEntry } from 'astro:content';
-import { AstroError } from 'astro/errors';
-import { getEntries } from 'astro:content';
+import { getCollection } from 'astro:content';
+
 
 export const getStaticPaths = (async () => {
-  return [];
+  const blogPosts = await getCollection('blog');
+  return blogPosts.map(({ slug }) => ({
+    params: { slug }
+  }));
 }) satisfies GetStaticPaths;
 
 const { slug } = Astro.params;
@@ -17,14 +21,10 @@ if (!entry) {
   throw new Error(`Post not found for slug: ${slug}`);
 }
 
-const { data: frontmatter, body } = entry;
+const { data: frontmatter, render } = entry;
+const { Content } = await render();
 ---
 
 <BlogLayout {...frontmatter}>
-  <article class="blog-post">
-    <section class="post-content">
-      <slot />
-      <Markdown content={body} />
-    </section>
-  </article>
+  <Content />
 </BlogLayout>

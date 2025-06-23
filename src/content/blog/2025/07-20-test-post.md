@@ -1,9 +1,9 @@
 ---
 title: "Test Post"
-description: "This is a test post."
+summary: "This is a test post."
 pubDate: 2025-07-20
 canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
-coverImage: "/assets/design-ai-ginger-droid.png"
+coverImage: "../assets/design-ai-ginger-droid.png"
 imageAlt: "AI droid"
 ---
 **This is a test post 2025. Please enjoy the Catipsum!**
@@ -16,7 +16,7 @@ Munchkin kitten yet malkin. Norwegian forest cougar manx puma ocicat and himalay
 
 Devonshire rex balinese puma or devonshire rex tomcat british shorthair birman. Jaguar tiger, and kitty egyptian mau and mouser, for leopard birman. Thai mouser or russian blue grimalkin. Himalayan. Devonshire rex sphynx.
 
-![Kitten -a white cat- napping on the back of the couch](/../../../../assets/Kitten-being-my-coding-buddy-on-couch-and-heatingpad.jpg "White cat")
+![Kitten -a white cat- napping on the back of the couch](../assets/Kitten-being-my-coding-buddy-on-couch-and-heatingpad.jpg "White cat")
 
 Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese so devonshire rex. Scottish fold sphynx malkin. Kitty. Ocicat. Tomcat scottish fold. Abyssinian american bobtail, for grimalkin. Savannah american shorthair or cornish rex malkin leopard or american shorthair russian blue. Norwegian forest donskoy. Siberian persian american shorthair, but devonshire rex. Kitten. Ragdoll cougar scottish fold. Siberian norwegian forest. Leopard cornish rex and ocicat. Manx mouser. Puma himalayan.
 
@@ -48,13 +48,13 @@ Ocelot balinese yet cornish rex tiger so tiger scottish fold siberian. Jaguar ma
 - Praesent id turpis vitae lacus venenatis tempus vehicula eget quam.
 - Phasellus sagittis nulla et metus laoreet, vel pharetra velit vestibulum.
 
-## Scottish fold tom siamese. 
+## Scottish fold tom siamese.
 
 Manx turkish angora sphynx havana brown russian blue. Singapura grimalkin and lynx for tomcat so grimalkin so tomcat. Sphynx scottish fold, balinese yet cheetah. Egyptian mau panther but tom for cheetah.
 
 ### Egyptian mau panther
 
-Siamese american bobtail, malkin savannah yet puma for singapura. Persian ragdoll.Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese so devonshire rex. Scottish fold sphynx malkin. Kitty. Ocicat. Tomcat scottish fold. 
+Siamese american bobtail, malkin savannah yet puma for singapura. Persian ragdoll.Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese so devonshire rex. Scottish fold sphynx malkin. Kitty. Ocicat. Tomcat scottish fold.
 
 #### Abyssinian american bobtail, for grimalkin
 

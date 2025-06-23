@@ -1,0 +1,21 @@
+---
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+import { getEntryBySlug } from 'astro:content';
+import { AstroError } from 'astro/errors';
+
+const { slug } = Astro.params;
+const entry = await getEntryBySlug('blog', slug.join('/'));
+
+if (!entry) throw new AstroError(`Post not found for slug: ${slug}`);
+
+const { data: frontmatter, body } = entry;
+---
+
+<BlogLayout {...frontmatter}>
+  <article class="blog-post">
+    <section class="post-content">
+      <slot />
+      <Markdown content={body} />
+    </section>
+  </article>
+</BlogLayout>

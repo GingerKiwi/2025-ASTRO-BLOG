@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 <html lang="en">
   <head>
@@ -17,101 +19,179 @@
   </head>
 
   <body>
-    <header>
-      <a href="#main" class="skip-to-main">Skip to main content</a>
-      <img src="/assets/logo-brand-dark-bg.png" class="logo--header" alt="Ginger Kiwi logo" />
-      <nav aria-label="main navigation">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-    </header>
-
+    <Header />
     <main id="main">
         <h1>About</h1>
-      <!-- SECTION: ABOUT -->
-      <section class="section--about" id="about">
-        <h2>Section Header</h2>
-        <div class="container--about">
-          <div class="card--about">
-            <img src="/assets/photo-profile.png" class="photo-about" alt="photo of Liz" />
-            <h3>Elizabeth McCready<span class="span--title"> - Title</span></h3>
-            <div class="p--about">
-              <p>Lorem ipsum… (you can personalize this later)</p>
-            </div>
+<main id="main">
+    </section>
+  <!-- SECTION: ABOUT -->
+    <section class="section--about" id="about">
+      <div class="container--about">
+        <div class="card--about">
+          <img src="/assets/photo-profile.png" class="photo-about" alt="photo of Liz" />
+          <h3>Elizabeth McCready<span class="span--title"> - Title</span></h3>
+          <div class="p--about">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat
+              est maximus convallis. Fusce vitae egestas ante. Donec sed ultrices enim.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- SECTION: PROJECTS -->
-      <section class="section--our-work" id="our-work">
+    <!-- SECTION: PROJECTS -->
+    <section class="section--our-work" id="our-work">
+      <div>
+        <!-- <img src="/assets/logo-brand-light-bg.png" class="img--section-divider" alt="shopify icon"> -->
         <h2>Projects</h2>
-        <div class="container--our-work organizations--grid">
-          <!-- Example card -->
-          <div class="card--organization">
-            <h3>Royal Ontario Museum</h3>
-            <h4>Hands-on Tours</h4>
-            <p>Lorem ipsum dolor sit amet…</p>
-          </div>
-          <!-- Add the rest of your project cards from index.astro -->
+      </div>
+      <div class="container--our-work organizations--grid">
+        <div class="card--organization">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
+          <h3>Royal Ontario Museum</h3>
+          <h4>Hands-on Tours</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
         </div>
-      </section>
+        <div class="card--organization card--project">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
+          <h3>Toronto JavaScript</h3>
+          <h4>PubScript Socials</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+        <div class="card--organization">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
+          <h3>Massey University</h3>
+          <h4>UX Design: Māori STEM Education App</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+        <div class="card--organization">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
+          <h3>GoGeomatics Canada</h3>
+          <h4>GeoIgnite 2020 Conference</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+            <a
+              href="https://gogeomatics.ca/geoignite-2020-cartographic-journeys-with-the-avenza-platform-nick-burchell-director-avenza/"
+              rel="noreferrer, noopener, nofollow, external"
+            >There and back again</a>
+          </p>
+        </div>
+        <div class="card--organization">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="koru icon"> -->
+          <h3>Odyssey Heights</h3>
+          <h4>Alternative Education Program</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+        <div class="card--organization">
+          <!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
+          <h3>Bruce Trail</h3>
+          <h4>Trillium Grant $100K</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <!-- SECTION: VOLUNTEER WORK -->
-      <section class="section--volunteer" id="volunteer">
-        <h2>Volunteer Work</h2>
-        <div class="div--p-emphasis">
-          <p class="p--emphasis">Lorem ipsum dolor sit amet…</p>
-        </div>
-        <div class="container--our-work organizations--grid">
-          <!-- Example card -->
-          <div class="card--organization">
-            <h3>City of Toronto Cultural Events</h3>
-            <h4>Project Assistant</h4>
-            <ul>
-              <li>Doors Open</li>
-              <li>Nuit Blanche</li>
-              <li>Taylor Swift: TO Poets Department</li>
-            </ul>
-          </div>
-          <!-- Add the other volunteer cards -->
-        </div>
-      </section>
-
-      <!-- SECTION: PUBLIC SPEAKING -->
-      <section class="section--public-speaking" id="public-speaking">
-        <h2>Public Speaking</h2>
-        <div class="div--p-emphasis">
-          <p class="p--emphasis">Lorem ipsum…</p>
-        </div>
-        <div class="container--our-work organizations--grid">
-          <!-- Example card -->
-          <div class="card--organization">
-            <h3>A11yTO Camp 2024 at Microsoft</h3>
-            <h4>Quick Accessibility Tips…</h4>
-            <p>Lorem ipsum…</p>
-          </div>
-          <!-- Add other speaking cards -->
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <nav aria-label="secondary navigation" class="nav--secondary">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-      <div class="copyright">
-        <p>
-          Copyright 2024-2025 © Elizabeth M<sup>c</sup>Cready.<br />
-          Designed and coded by Elizabeth M<sup>c</sup>Cready.
+    <!-- SECTION: VOLUNTEER WORK -->
+    <section class="section--volunteer" id="volunteer">
+      <h2>Volunteer Work</h2>
+      <div class="div--p-emphasis">
+        <p class="p--emphasis">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet dolores enim assumenda hic magnam nihil ad deleniti eaque, incidunt itaque
+          consequuntur repellendus quisquam? Facilis magni laborum laboriosam minus velit?
         </p>
       </div>
-    </footer>
+      <div class="container--our-work organizations--grid">
+        <div class="card--organization">
+          <h3>Royal Ontario Museum</h3>
+          <h4>Gallery Interpretor | <br />Deparment of Museum Volunteers Recetionist</h4>
+                      <div>
+                          <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+                              maximus convallis.
+                          </p>
+                      </div>
+        </div>
+        <div class="card--organization">
+          <h3>City of Toronto Cultural Events</h3>
+          <h4>Project Assistant | Behind the Scenes Assistant | Events Staff</h4>
+                      <div>
+                          <ul>
+                              <li>Doors Open</li>
+                              <li>Nuit Blanche</li>
+                              <li>Taylor Swift: TO Poets Department</li>
+                          </ul>
+                      </div>
+        </div>
+        <div class="card--organization">
+          <h3>Pride Toronto</h3>
+          <h4>Accessibilty Assistant</h4>
+                      <div>
+                          <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+                              maximus convallis.
+                          </p>
+                      </div>
+        </div>
+        <div class="card--organization">
+          <h3>Toronto JavaScript</h3>
+          <h4>Accessiblity Team and Volunteer Team Organizer | Events Staff</h4>
+                      <div>
+                          <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+                              maximus convallis.
+                          </p>
+                      </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PUBLIC SPEAKING -->
+    <section class="section--public-speaking" id="public-speaking">
+      <h2>Public Speaking</h2>
+      <div class="div--p-emphasis">
+        <p class="p--emphasis">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet dolores enim assumenda hic magnam nihil ad deleniti eaque, incidunt itaque
+          consequuntur repellendus quisquam? Facilis magni laborum laboriosam minus velit?
+        </p>
+      </div>
+      <div class="container--our-work organizations--grid">
+        <div class="card--organization">
+          <h3>A11yTO Camp 2024 at Microsoft</h3>
+          <h4>Quick Accessibility Tips for Developers – With Cats and Coffee Themed Code Examples</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+        <div class="card--organization">
+          <h3>Toronto JavaScript Lighting Talks at XYZ</h3>
+          <h4>Accessibility Isn’t Just for Users – Creating Engaging Technical Presentations with Accessibility in Mind</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
+            maximus convallis.
+          </p>
+        </div>
+      </div>
+    </section>
+    </main>
+      <Footer />
   </body>
 </html>

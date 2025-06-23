@@ -1,8 +1,14 @@
 ---
+import type { GetStaticPaths } from "astro";
 // src/pages/blog/[...slug].astro
 import BlogLayout from '../layouts/BlogLayout.astro';
 import { getEntry } from 'astro:content';
 import { AstroError } from 'astro/errors';
+import { getEntries } from 'astro:content';
+
+export const getStaticPaths = (async () => {
+  return [];
+}) satisfies GetStaticPaths;
 
 const { slug } = Astro.params;
 const entry = await getEntry('blog', slug);

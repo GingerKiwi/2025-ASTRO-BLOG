@@ -584,12 +584,24 @@ footer nav ul {
 
 /* Blog Posts */
 
+/* Utility: offset main content for fixed header */
+/* .push-down-header {
+	padding-top: 13.2rem; 
+  } */
+
 article.blog-post {
 	max-width: 65em;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 13.2rem; 
+	margin-top: 10rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+  }
+
+  /* used to test blog post title area */
+  .post-title {
+	background-color: pink;
   }
 
   /* Apply to paragraphs inside blog posts */

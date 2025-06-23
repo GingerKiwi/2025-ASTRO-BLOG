@@ -1,403 +1,113 @@
 ---
-// This frontmatter block is required, even if empty
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Ginger Kiwi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
-    <!-- ✅ Updated for Astro's current syntax -->
     <style is:global>
       @import "../styles/css-reset.css";
       @import "../styles/variables.css";
       @import "../styles/styles.css";
     </style>
   </head>
-  <body>
 
-	<!-- TOP OF PASTING -->
-    <!-- Paste the entire contents from your existing index.html’s <body> here -->
-		
-			
-				<div class="bg--hero-nav">
-					<header>
-						<a href="#main" class="skip-to-main">skip to main</a>
-						<img src="/assets/logo-brand-dark-bg.png" class="logo--header" alt="Ginger Kiwi logo" />
-		
-						<!-- MOBILE NAVIGATION -->
-						<button type="button" id="mobile-nav-trigger" popovertarget="mobile-nav" aria-label="Open main navigation">
-							<svg fill="currentColor" viewBox="0 0 512 512" width="30" height="30">
-								<path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-							</svg>
-						</button>
-						<dialog popover id="mobile-nav">
-							<button type="button" id="mobile-nav-close" popovertarget="mobile-nav" aria-label="Close main navigation">
-								<svg fill="currentColor" viewBox="0 0 24 24" width="30" height="30">
-									<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-								</svg>
-							</button>
-							<nav aria-label="main navigation">
-								<ul>
-									<li><a href="#home">Home</a></li>
-									<li><a href="#about">About</a></li>
-									<li><a href="#our-work">Projects</a></li>
-									<li><a href="#volunteer">Volunteer Work</a></li>
-									<li><a href="#design-work">Design</a></li>
-									<li><a href="#public-speaking">Public Speaking</a></li>
-									<li><a href="/blog">Blog</a></li>
-									<li><a href="#contact">Contact</a></li>
-								</ul>
-							</nav>
-						</dialog>
-		
-						<!-- DESKTOP NAVIGATION -->
-						<nav id="desktop-nav" aria-label="main navigation">
-							<ul>
-								<li><a href="#home">Home</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#our-work">Projects</a></li>
-								<li><a href="#volunteer">Volunteer Work</a></li>
-								<li><a href="#design-work">Design</a></li>
-								<li><a href="#public-speaking">Public Speaking</a></li>
-								<li><a href="/blog">Blog</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
-				</div>
-				<main id="main">
-					<section class="section--hero" id="home">
-						<h1>Ginger Kiwi</h1>
-						<!-- <h1>Liz M<sup>c</sup>Cready</h1> -->
-						<p class="p--tagline"></p>
-						<p class="p-underconstruction">
-							June, 2025: This website is being completely redesigned and coded from scratch in Astro.js. <p/>
-							<p class="p-underconstruction">Look for the completeted design as well as blog articles and <a
-								href="https://www.youtube.com/@GingerKiwiOnWheels"
-								target="_blank"
-								rel="noopener"
-							>GingerKiwiOnWheels</a> YouTube highlights in July, 2025
-						</p>
-						<!-- <a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a> -->
-					</section>
-		
-					<!-- SECTION: POSTS -->
-		
-					<section class="section--posts" id="posts">
-						<h2>Featured Articles</h2>
-						<div class="container--posts posts--grid">
-							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
-								<h3 class="heading--post-name">Article Title</h3>
-								<div class="post--content">
-									<ul class="list--post">
-										<li>
-											<span class="posts--list-item">Cat ipsum dolor sit amet, consectetur</span>
-										</li>
-									</ul>
-									<p>
-										British shorthair abyssinian Cat ipsum dolor sit amet, cornish rex. Munchkin british shorthair, so cornish rex egyptian mau. Himalayan. Scottish fold lion egyptian mau or puma so donskoy for mouser. Thai maine coon siberian for savannah bombay 
-									</p>
-								</div>
-								<a href="blog.gingerkiwi.dev/article-name" class="a--cta-post">Continue reading</a>
-							</div>
-		
-							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
-								<h3 class="heading--post-name">Article Title</h3>
-								<div class="post--content">
-									<ul class="list--post">
-										<li>
-											<span class="posts--list-item">Alice ipsum dolor sit amet, consectetur</span>
-										</li>
-									</ul>
-									<p>
-										Alice poor here NOT natural to No tired to nothing is they very centre it before Alice for it had she However tired and lamps So through a not to certain it to glass OUT opened but overhead later up telescopes it set climb too 
-									</p>
-								</div>
-								<a href="blog.gingerkiwi.dev/article-name" class="a--cta-post">Continue reading</a>
-							</div>
-		
-							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
-								<h3 class="heading--post-name">Article Title</h3>
-								<div class="post--content">
-									<ul class="list--post">
-										<li>
-											<span class="posts--list-item">Cupcake ipsum dolor sit amet, consectetur</span>
-										</li>
-									</ul>
-									<p>
-										Cupcake ipsum dolor sit amet jujubes marshmallow powder. Sugar plum tootsie roll tiramisu pudding halvah tootsie roll donut caramels. Halvah oat cake danish cheesecake gummi bears halvah biscuit sweet roll. 
-									</p>
-								</div>
-								<a href="blog.gingerkiwi.dev/article-name" class="a--cta-post">Continue reading</a>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: ABOUT -->
-					<section class="section--about" id="about">
-						<h2>About</h2>
-						<div class="container--about">
-							<div class="card--about">
-								<img src="/assets/photo-profile.png" class="photo-about" alt="photo of Liz" />
-								<h3>Elizabeth McCready<span class="span--title"> - Title</span></h3>
-								<div class="p--about">
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat
-										est maximus convallis. Fusce vitae egestas ante. Donec sed ultrices enim.
-									</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia.</p>
-								</div>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: PROJECTS -->
-					<section class="section--our-work" id="our-work">
-						<div>
-							<!-- <img src="/assets/logo-brand-light-bg.png" class="img--section-divider" alt="shopify icon"> -->
-							<h2>Projects</h2>
-						</div>
-						<div class="container--our-work organizations--grid">
-							<div class="card--organization">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
-								<h3>Royal Ontario Museum</h3>
-								<h4>Hands-on Tours</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-							<div class="card--organization card--project">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
-								<h3>Toronto JavaScript</h3>
-								<h4>PubScript Socials</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-							<div class="card--organization">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
-								<h3>Massey University</h3>
-								<h4>UX Design: Māori STEM Education App</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-							<div class="card--organization">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
-								<h3>GoGeomatics Canada</h3>
-								<h4>GeoIgnite 2020 Conference</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-									<a
-										href="https://gogeomatics.ca/geoignite-2020-cartographic-journeys-with-the-avenza-platform-nick-burchell-director-avenza/"
-										rel="noreferrer, noopener, nofollow, external"
-									>There and back again</a>
-								</p>
-							</div>
-							<div class="card--organization">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="koru icon"> -->
-								<h3>Odyssey Heights</h3>
-								<h4>Alternative Education Program</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-							<div class="card--organization">
-								<!-- <img src="/assets/koru-lightbg.png" class="logo--organization" alt="shopify icon"> -->
-								<h3>Bruce Trail</h3>
-								<h4>Trillium Grant $100K</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: VOLUNTEER WORK -->
-					<section class="section--volunteer" id="volunteer">
-						<h2>Volunteer Work</h2>
-						<div class="div--p-emphasis">
-							<p class="p--emphasis">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet dolores enim assumenda hic magnam nihil ad deleniti eaque, incidunt itaque
-								consequuntur repellendus quisquam? Facilis magni laborum laboriosam minus velit?
-							</p>
-						</div>
-						<div class="container--our-work organizations--grid">
-							<div class="card--organization">
-								<h3>Royal Ontario Museum</h3>
-								<h4>Gallery Interpretor | <br />Deparment of Museum Volunteers Recetionist</h4>
-								<div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-										maximus convallis.
-									</p>
-								</div>
-							</div>
-							<div class="card--organization">
-								<h3>City of Toronto Cultural Events</h3>
-								<h4>Project Assistant | Behind the Scenes Assistant | Events Staff</h4>
-								<div>
-									<ul>
-										<li>Doors Open</li>
-										<li>Nuit Blanche</li>
-										<li>Taylor Swift: TO Poets Department</li>
-									</ul>
-								</div>
-							</div>
-							<div class="card--organization">
-								<h3>Pride Toronto</h3>
-								<h4>Accessibilty Assistant</h4>
-								<div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-										maximus convallis.
-									</p>
-								</div>
-							</div>
-							<div class="card--organization">
-								<h3>Toronto JavaScript</h3>
-								<h4>Accessiblity Team and Volunteer Team Organizer | Events Staff</h4>
-								<div>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-										maximus convallis.
-									</p>
-								</div>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: GRAPHIC & UX DESIGN -->
-		
-					<section class="section--design-work" id="design-work">
-						<h2>Graphic & UX Design</h2>
-						<div class="container--posts posts--grid">
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/design-gk2024-mobile.png" alt="MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/Typewriter_1200x1200.png" alt="MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/design-ai-ginger-droid.png" alt="coffee shop website ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/BlindlyCoding.png" alt="ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/PubScript_LinkedIn_2400x2400.png" alt="small business website ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/CrazyCatsCofee-CafeHomePage.png" alt="coffee shop website ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/YarnHelp3-0.png" alt="ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/FrenchForDevs_1200x1200.png" alt="ADD ALT TEXT! " />
-								</div>
-							</div>
-		
-							<div class="card--posts">
-								<div class="post--content">
-									<img src="/assets/design-listen-kiwi-login.png" alt="coffee shop website ADD MORE ALT TEXT! " />
-								</div>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: PUBLIC SPEAKING -->
-					<section class="section--public-speaking" id="public-speaking">
-						<h2>Public Speaking</h2>
-						<div class="div--p-emphasis">
-							<p class="p--emphasis">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet dolores enim assumenda hic magnam nihil ad deleniti eaque, incidunt itaque
-								consequuntur repellendus quisquam? Facilis magni laborum laboriosam minus velit?
-							</p>
-						</div>
-						<div class="container--our-work organizations--grid">
-							<div class="card--organization">
-								<h3>A11yTO Camp 2024 at Microsoft</h3>
-								<h4>Quick Accessibility Tips for Developers – With Cats and Coffee Themed Code Examples</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-							<div class="card--organization">
-								<h3>Toronto JavaScript Lighting Talks at XYZ</h3>
-								<h4>Accessibility Isn’t Just for Users – Creating Engaging Technical Presentations with Accessibility in Mind</h4>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet orci ut enim mattis tincidunt. Donec mattis rutrum lacus, lacinia consequat est
-									maximus convallis.
-								</p>
-							</div>
-						</div>
-					</section>
-		
-					<!-- SECTION: CONTACT -->
-		
-					<section class="section--contact" id="contact">
-						<img src="/assets/logo-brand.png" class="logo--gk-contact" alt="Ginger Kiwi logo" />
-						<h2 class="heading--gk">Elizabeth M<sup>c</sup>Cready</h2>
-						<!-- <p class="p--tagline">Tagline</p> -->
-						<a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a>
-					</section>
-				</main>
-				<footer>
-					<nav aria-label="secondary navigation" class="nav--secondary">
-						<ul>
-							<li><a href="#home">Home</a></li>
-							<li><a href="#services">Articles</a></li>
-							<li><a href="#our-work">Projects</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-					<div class="copyright">
-						<p>
-							Copyright 2024-2025 © Elizabeth M<sup>c</sup>Cready. All Rights Reserved. <br />
-							Designed and Coded byElizabeth M<sup>c</sup>Cready.
-						</p>
-					</div>
-				</footer>
-			</body>
-		</html>
-		<!-- BOTTOM OF PASTING -->
-    
-      
+  <body>
+    <Header />
+
+    <main id="main">
+      <!-- HERO SECTION -->
+      <section class="section--hero" id="home">
+        <h1>Ginger Kiwi</h1>
+        <p class="p--tagline"></p>
+        <p class="p-underconstruction">
+          June, 2025: This website is being completely redesigned and coded from scratch in Astro.js.
+        </p>
+        <p class="p-underconstruction">
+          Look for the completed design as well as blog articles and 
+          <a href="https://www.youtube.com/@GingerKiwiOnWheels" target="_blank" rel="noopener">GingerKiwiOnWheels</a> YouTube highlights in July, 2025.
+        </p>
+      </section>
+
+      <!-- FEATURED POSTS (optional placeholder for future dynamic content) -->
+      <section class="section--posts" id="posts">
+        <h2>Featured Articles</h2>
+        <div class="container--posts posts--grid">
+          <!-- Placeholder post -->
+          <div class="card--posts">
+            <h3 class="heading--post-name">Article Title</h3>
+            <div class="post--content">
+              <ul class="list--post">
+                <li><span class="posts--list-item">Post preview text here</span></li>
+              </ul>
+              <p>Sample paragraph for article preview goes here.</p>
+            </div>
+            <a href="/blog/sample-post" class="a--cta-post">Continue reading</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section--about" id="about">
+        <h2>About</h2>
+        <div class="container--about">
+          <div class="card--about">
+            <img src="/assets/photo-profile.png" class="photo-about" alt="photo of Liz" />
+            <h3>Elizabeth McCready<span class="span--title"> - Title</span></h3>
+            <div class="p--about">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <p>Another paragraph about your background...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section--our-work" id="our-work">
+        <h2>Projects</h2>
+        <div class="container--our-work organizations--grid">
+          <div class="card--organization">
+            <h3>Royal Ontario Museum</h3>
+            <h4>Hands-on Tours</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <div class="card--organization">
+            <h3>Toronto JavaScript</h3>
+            <h4>PubScript Socials</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <!-- Add more project cards as needed -->
+        </div>
+      </section>
+
+      <!-- DESIGN -->
+      <section class="section--design-work" id="design-work">
+        <h2>Graphic & UX Design</h2>
+        <div class="container--posts posts--grid">
+          <div class="card--posts">
+            <div class="post--content">
+              <img src="/assets/design-gk2024-mobile.png" alt="Design project screenshot" />
+            </div>
+          </div>
+          <!-- Add more design images as needed -->
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section--contact" id="contact">
+        <img src="/assets/logo-brand.png" class="logo--gk-contact" alt="Ginger Kiwi logo" />
+        <h2 class="heading--gk">Elizabeth M<sup>c</sup>Cready</h2>
+        <a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>

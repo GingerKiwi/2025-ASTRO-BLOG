@@ -1,13 +1,15 @@
 ---
 // src/pages/blog/[...slug].astro
-import BlogLayout from '~/layouts/BlogLayout.astro';
-import { getEntryBySlug } from 'astro:content';
+import BlogLayout from '../layouts/BlogLayout.astro';
+import { getEntry } from 'astro:content';
 import { AstroError } from 'astro/errors';
 
 const { slug } = Astro.params;
-const entry = await getEntryBySlug('blog', slug.join('/'));
+const entry = await getEntry('blog', slug);
 
-if (!entry) throw new AstroError(`Post not found for slug: ${slug}`);
+if (!entry) {
+  throw new Error(`Post not found for slug: ${slug}`);
+}
 
 const { data: frontmatter, body } = entry;
 ---

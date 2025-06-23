@@ -1,12 +1,14 @@
-import { defineConfig } from 'astro/config';
+// astro.config.mjs
 
+import { defineConfig } from 'astro/config';
+import path from 'node:path'; // ✅ Required for path.resolve()
+import sitemap from '@astrojs/sitemap';
+import content from '@astrojs/content';
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [], // or remove this line entirely
-  vite: {
-    resolve: {
-      alias: {
-        '~': path.resolve('./src'), // this makes ~/ refer to the src folder
-      },
-    },
+  integrations: [sitemap(), content()],
+  alias: {
+    '~/layouts': path.resolve('./src/layouts'), // ✅ This needs `path` defined
   },
 });

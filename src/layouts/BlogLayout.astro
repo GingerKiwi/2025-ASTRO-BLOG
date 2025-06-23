@@ -40,7 +40,8 @@ const { title, description, canonical, coverImage, imageAlt, pubDate } = Astro.p
       
 
         <section class="post-content">
-          <h1 class="post-title">{title}</h1>
+          <!-- <h1 class="post-title">{title}</h1> -->
+          <pre>{JSON.stringify(Astro.props, null, 2)}</pre>
           {pubDate && <p class="post-date">{formatDate(pubDate)}</p>}
           <p>cover image here with alt text. The code for this is commented out for now.</p>
           <slot />

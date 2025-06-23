@@ -1,13 +1,13 @@
 ---
-title: "Test Post"
-description: "This is a test post."
-pubDate: 2025-07-20
-canonical: https://gingerkiwi.blog/blog/2025/07-20-test-post/
-coverImage: "/assets/design-ai-ginger-droid.png"
-imageAlt: "AI droid"
+title: "Test Post for 2024"
+description: "This is a test post for 2023."
+pubDate: 2024-08-12
+canonical: https://gingerkiwi.blog/blog/2024/08-12-test-post-for-2024/
+coverImage: "/assets/00_DuckDebugging_Cool_1200x630.png"
+imageAlt: "Cool duck image with a magnifying glass"
 layout: ../../../layouts/BlogLayout.astro
 ---
-**This is a test post 2025. Please enjoy the Catipsum!**
+**This is a test post 2024. Please enjoy the Catipsum!**
 
 Cat ipsum dolor sit amet, mouser or himalayan siamese. Thai. Sphynx. Lynx tomcat, but panther or burmese or leopard so burmese malkin.
 
@@ -42,7 +42,7 @@ Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese 
 		</footer>
 ```
 
-Ocelot balinese yet cornish rex tiger so tiger scottish fold siberian. Jaguar maine coon, thai, maine coon yet scottish fold. Mouser siberian egyptian mau so malkin abyssinian jaguar.
+Ocelot balinese yet cornish rex tiger so tiger scottish fold siberian. Jaguar maine coon, thai, maine coon yet scottish fold. Mouser siberian egyptian mau so malkin abyssinian jaguar. 
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - Donec tincidunt diam non massa ornare pulvinar.
@@ -51,15 +51,15 @@ Ocelot balinese yet cornish rex tiger so tiger scottish fold siberian. Jaguar ma
 
 ## Scottish fold tom siamese. 
 
-Manx turkish angora sphynx havana brown russian blue. Singapura grimalkin and lynx for tomcat so grimalkin so tomcat. Sphynx scottish fold, balinese yet cheetah. Egyptian mau panther but tom for cheetah.
+Manx turkish angora sphynx havana brown russian blue. Singapura grimalkin and lynx for tomcat so grimalkin so tomcat. Sphynx scottish fold, balinese yet cheetah. Egyptian mau panther but tom for cheetah. 
 
 ### Egyptian mau panther
 
 Siamese american bobtail, malkin savannah yet puma for singapura. Persian ragdoll.Turkish angora sphynx. Malkin scottish fold. Malkin cougar and persian balinese so devonshire rex. Scottish fold sphynx malkin. Kitty. Ocicat. Tomcat scottish fold. 
 
-#### Abyssinian american bobtail, for grimalkin
+#### Abyssinian american bobtail, for grimalkin 
 
-Savannah american shorthair or cornish rex malkin leopard or american shorthair russian blue. Norwegian forest donskoy.
+Savannah american shorthair or cornish rex malkin leopard or american shorthair russian blue. Norwegian forest donskoy. 
 
 ##### Cat Walks on Keyboard
 

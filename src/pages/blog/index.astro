@@ -1,0 +1,79 @@
+---
+import { Picture } from 'astro:assets';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { formatDate } from '../../utils/formatDate.js';
+
+const blogPosts = (await getCollection('blog'))
+	.sort((postA, postB) => {
+		const postADate = new Date(postA.data.pubDate);
+		const postBDate = new Date(postB.data.pubDate);
+
+		return postBDate.getTime() - postADate.getTime();
+	});
+---
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Blog | Ginger Kiwi</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+
+		<!-- ✅ Updated for Astro's current syntax -->
+		<style is:global>
+		@import "../../styles/css-reset.css";
+		@import "../../styles/variables.css";
+		@import "../../styles/styles.css";
+		</style>
+	</head>
+	<body>
+		<Header />
+
+		<h1>Blog posts</h1>
+
+		<div id="main-content">
+      		<!-- SECTION: POSTS -->
+			<div class="section--posts" id="posts">
+				<div class="posts--grid">
+					{blogPosts.map(({ slug, data: { title, imageAlt, coverImage, pubDate, summary } }) => (
+						<article class="card--posts">
+							<Picture
+								src={coverImage}
+								alt={imageAlt || `Cover image for the article titled ${title}`}
+								width="600"
+								height="600"
+								loading="lazy"
+								decoding="async"
+								class="card--post-image"
+							/>
+
+							<header class="card--header">
+								<a href={`/blog/${slug}`}>
+									<h2>{title}</h2>
+								</a>
+
+								<aside class="card--pub-date">
+									<p><time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time></p>
+								</aside>
+							</header>
+
+							<p class="card--post-content">{summary || ''}</p>
+
+							<footer>
+								<a href={`/blog/${slug}`}>
+									<span>Continue reading</span>
+									<span class="screenreader--only">about {title}</span>
+									<span>...</span>
+								</a>
+							</footer>
+						</article>
+					))}
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

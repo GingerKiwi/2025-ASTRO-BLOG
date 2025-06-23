@@ -57,7 +57,22 @@ section {
 	text-align: left;    /* Improves readability */
 	line-height: 1.6;    /* Comfortable line spacing */
   }
-  
+/* A11y */
+
+.screenreader--only {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+	margin: 0;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	pointer-events: none;
+	user-select: none;
+}
 
 /* HEADER SECTION */
 
@@ -586,14 +601,14 @@ footer nav ul {
 
 /* Utility: offset main content for fixed header */
 /* .push-down-header {
-	padding-top: 13.2rem; 
+	padding-top: 13.2rem;
   } */
 
 article.blog-post {
 	max-width: 65em;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 13.2rem; 
+	padding-top: 13.2rem;
 	margin-top: 10rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -636,4 +651,3 @@ article.blog-post {
 .blog-post li {
   margin-bottom: 0.5em;
 }
-

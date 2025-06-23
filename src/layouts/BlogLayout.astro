@@ -1,19 +1,28 @@
 ---
 console.log(Astro.props); // 🔍 check what's available
 
+import { Picture } from 'astro:assets';
 import Head from "../components/Head.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { formatDate } from "../utils/formatDate.js"; 
-// import { Image } from 'astro:assets';
+import { formatDate } from "../utils/formatDate.js";
+
+interface Props {
+  title: string;
+  summary: string;
+  canonical: string;
+  pubDate: Date;
+  imageAlt?: string;
+  coverImage: ImageMetadata;
+}
 
 // Props from Markdown frontmatter
-const { title, description, canonical, coverImage, imageAlt, pubDate } = Astro.props;
+const { title, summary, canonical, coverImage, imageAlt, pubDate } = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <Head title={title} description={description} canonical={canonical} />
+    <Head title={title} description={summary} canonical={canonical} />
     <style is:global>
       @import "../styles/css-reset.css";
       @import "../styles/variables.css";
@@ -23,31 +32,35 @@ const { title, description, canonical, coverImage, imageAlt, pubDate } = Astro.p
 
   <body>
     <Header />
-    <main id="main-content" class="push-down-header" role="main">
-      <article class="blog-post">
-          
-          <!-- {coverImage && (
-            <img
-              src={coverImage}
-              alt={imageAlt || `Cover image for the article titled ${title}`}
-              width="1200"
-              height="630"
-              loading="lazy"
-              decoding="async"
-              class="cover-image"
-            />
-          )} -->
-      
 
-        <section class="post-content">
-          <!-- <h1 class="post-title">{title}</h1> -->
-          <pre>{JSON.stringify(Astro.props, null, 2)}</pre>
-          {pubDate && <p class="post-date">{formatDate(pubDate)}</p>}
-          <p>cover image here with alt text. The code for this is commented out for now.</p>
+    <div>
+      <h1 class="post-title">{title}</h1>
+
+      {pubDate && (
+        <aside>
+          <p class="post-date"><time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time></p>
+        </aside>
+      )}
+    </div>
+
+    <Picture
+      src={coverImage}
+      alt={imageAlt || `Cover image for the article titled ${title}`}
+      width="600"
+      height="600"
+      loading="lazy"
+      decoding="async"
+      class="cover-image"
+    />
+
+    <main id="main-content" class="push-down-header" role="main">
+      <div class="blog-post">
+        <div class="post-content">
           <slot />
-        </section>
-      </article>
+        </div>
+      </div>
     </main>
+
     <Footer />
   </body>
 </html>

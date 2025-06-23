@@ -1,6 +1,12 @@
-// astro.config.mjs
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // no need for @astrojs/image integration
+  integrations: [], // or remove this line entirely
+  vite: {
+    resolve: {
+      alias: {
+        '~': path.resolve('./src'), // this makes ~/ refer to the src folder
+      },
+    },
+  },
 });

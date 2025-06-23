@@ -1,0 +1,116 @@
+---
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About – Ginger Kiwi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+
+    <style is:global>
+      @import "../styles/css-reset.css";
+      @import "../styles/variables.css";
+      @import "../styles/styles.css";
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="#main" class="skip-to-main">Skip to main content</a>
+      <img src="/assets/logo-brand-dark-bg.png" class="logo--header" alt="Ginger Kiwi logo" />
+      <nav aria-label="main navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- SECTION: ABOUT -->
+      <section class="section--about" id="about">
+        <h2>About</h2>
+        <div class="container--about">
+          <div class="card--about">
+            <img src="/assets/photo-profile.png" class="photo-about" alt="photo of Liz" />
+            <h3>Elizabeth McCready<span class="span--title"> - Title</span></h3>
+            <div class="p--about">
+              <p>Lorem ipsum… (you can personalize this later)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: PROJECTS -->
+      <section class="section--our-work" id="our-work">
+        <h2>Projects</h2>
+        <div class="container--our-work organizations--grid">
+          <!-- Example card -->
+          <div class="card--organization">
+            <h3>Royal Ontario Museum</h3>
+            <h4>Hands-on Tours</h4>
+            <p>Lorem ipsum dolor sit amet…</p>
+          </div>
+          <!-- Add the rest of your project cards from index.astro -->
+        </div>
+      </section>
+
+      <!-- SECTION: VOLUNTEER WORK -->
+      <section class="section--volunteer" id="volunteer">
+        <h2>Volunteer Work</h2>
+        <div class="div--p-emphasis">
+          <p class="p--emphasis">Lorem ipsum dolor sit amet…</p>
+        </div>
+        <div class="container--our-work organizations--grid">
+          <!-- Example card -->
+          <div class="card--organization">
+            <h3>City of Toronto Cultural Events</h3>
+            <h4>Project Assistant</h4>
+            <ul>
+              <li>Doors Open</li>
+              <li>Nuit Blanche</li>
+              <li>Taylor Swift: TO Poets Department</li>
+            </ul>
+          </div>
+          <!-- Add the other volunteer cards -->
+        </div>
+      </section>
+
+      <!-- SECTION: PUBLIC SPEAKING -->
+      <section class="section--public-speaking" id="public-speaking">
+        <h2>Public Speaking</h2>
+        <div class="div--p-emphasis">
+          <p class="p--emphasis">Lorem ipsum…</p>
+        </div>
+        <div class="container--our-work organizations--grid">
+          <!-- Example card -->
+          <div class="card--organization">
+            <h3>A11yTO Camp 2024 at Microsoft</h3>
+            <h4>Quick Accessibility Tips…</h4>
+            <p>Lorem ipsum…</p>
+          </div>
+          <!-- Add other speaking cards -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav aria-label="secondary navigation" class="nav--secondary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="copyright">
+        <p>
+          Copyright 2024-2025 © Elizabeth M<sup>c</sup>Cready.<br />
+          Designed and coded by Elizabeth M<sup>c</sup>Cready.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

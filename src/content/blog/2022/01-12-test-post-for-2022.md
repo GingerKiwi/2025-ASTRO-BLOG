@@ -1,6 +1,6 @@
 ---
 title: "Test Post for 2022"
-summary: "This is a test post for 2022."
+summary: "Munchkin kitten yet malkin. Norwegian forest cougar manx puma ocicat and himalayan. Persian havana brown and kitten. Bengal american bobtail, munchkin so bobcat. Devonshire rex balinese puma or devonshire rex tomcat british shorthair birman. Jaguar tiger, and kitty egyptian mau and mouser, for leopard birman. Thai mouser or russian blue grimalkin. Himalayan. Devonshire rex sphynx."
 pubDate: 2022-01-12
 canonical: https://gingerkiwi.blog/blog/2022/01-12-test-post-for-2022/
 coverImage: "../assets/GK-Blog-11ty-Design-with-Boo.png"

@@ -37,6 +37,16 @@ p {
 	padding: auto 2rem;
 }
 
+ a {
+	color: var(--clr-purple-youtube);
+	text-decoration: underline;
+}
+/*
+a:hover, a:focus {
+	color: var(--clr-green);
+	text-decoration-color: var(--clr-light-green)
+} */
+
 section {
 	margin: 2rem 0;
 	padding-bottom: 4rem;
@@ -599,27 +609,32 @@ footer nav ul {
 
 /* Main Blog Home Page */
 
-/* Alternate Img on left then right */
+/* Reverse Rules: Alternate Img on left then right */
 
-.card--blog-home-posts {
+/* .card--blog-home-posts {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 2em;
   margin-bottom: 3em;
-}
+} */
 
-.card--blog-home-posts.reverse {
-  grid-template-columns: 1fr 1fr;
-}
-
-.card--blog-home-posts.reverse .card--blog-home-image {
-  grid-column: 2;
-}
-
-.card--blog-home-posts.reverse .card--blog-home-text {
+/* Default: image left, text right */
+/* .card--blog-home-posts .card--blog-home-image {
   grid-column: 1;
 }
+.card--blog-home-posts .card--blog-home-text {
+  grid-column: 2;
+} */
+
+/* Alternate: image right, text left for even posts */
+/* .posts--grid-blog-home > article:nth-of-type(even) .card--blog-home-image {
+  grid-column: 2;
+}
+.posts--grid-blog-home > article:nth-of-type(even) .card--blog-home-text {
+  grid-column: 1;
+} */
+
 
 /* Rest of CSS for Main Blog Home Page */
 
@@ -627,6 +642,7 @@ footer nav ul {
 	padding: 2em; /* Adds white space around the entire blog section */
 	max-width: 1200px;
 	margin: 0 auto; /* Center the section */
+	background-color: var(--clr-bg-light);
 }
 
 .card--blog-home-posts {
@@ -645,7 +661,6 @@ footer nav ul {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	border-radius: 0.5em;
 }
   
   /* Right column: title, date, summary */
@@ -667,7 +682,7 @@ footer nav ul {
 }
   
 .card--blog-home-summary {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	line-height: 1.6;
 	margin: 0;
 }

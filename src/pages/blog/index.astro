@@ -30,7 +30,7 @@ const blogPosts = (await getCollection('blog'))
     <Header />
 
     <main id="main-content">
-      <h1>Blog posts</h1>
+      <h1>Blog Posts</h1>
       <p class="p-underconstruction">
         June, 2025: Yes, the layout on this page is really janky! This website is being completely redesigned and coded from scratch in Astro.js.
       </p>
@@ -44,44 +44,37 @@ const blogPosts = (await getCollection('blog'))
       <!-- SECTION: BLOG POSTS -->
       <section class="section--blog-home-posts" id="posts">
         <div class="posts--grid-blog-home">
-          {blogPosts.map(({ slug, data: { title, imageAlt, coverImage, pubDate, summary } }) => (
-            <article class="card--blog-home-posts">
-              <Picture
-                src={coverImage}
-                alt={imageAlt || `Cover image for the article titled ${title}`}
-                width="600"
-                height="600"
-                loading="lazy"
-                decoding="async"
-                class="card--blog-home-image"
-              />
+			{blogPosts.map(({ slug, data: { title, imageAlt, coverImage, pubDate, summary } }, index) => (
+  <article class={`card--blog-home-posts ${index % 2 === 1 ? 'reverse' : ''}`}>
+    <Picture
+      src={coverImage}
+      alt={imageAlt || `Cover image for the article titled ${title}`}
+      width="600"
+      height="600"
+      loading="lazy"
+      decoding="async"
+      class="card--blog-home-image"
+    />
 
-              <div class="card--blog-home-text">
-                <div class="card--blog-home-meta">
-                  <h3 class="card--blog-home-title">
-                    <a href={`/blog/${slug}`}>{title}</a>
-                  </h3>
-                  <p class="card--blog-home-date">
-                    <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
-                  </p>
-                </div>
+    <div class="card--blog-home-text">
+      <div class="card--blog-home-meta">
+        <h3 class="card--blog-home-title">
+          <a href={`/blog/${slug}`}>{title}</a>
+        </h3>
+        <p class="card--blog-home-date">
+          <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        </p>
+      </div>
 
-                <p class="card--blog-home-summary">{summary || ''}</p>
+      <p class="card--blog-home-summary">{summary || ''}</p>
 
-                <footer class="card--blog-home-footer">
-                  <a href={`/blog/${slug}`}>
-                    <span>Continue reading</span>
-                    <span class="screenreader--only"> about {title}</span>
-                    <span>...</span>
-                  </a>
-                </footer>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-    </main>
-
-    <Footer />
-  </body>
-</html>
+      <div class="card--blog-home-footer">
+        <a href={`/blog/${slug}`}>
+          <span>Continue reading</span>
+          <span class="screenreader--only"> about {title}</span>
+          <span>...</span>
+        </a>
+      </d>
+    </div>
+  </article>
+))}

@@ -597,6 +597,99 @@ footer nav ul {
 
 /* PAGES CSS */
 
+/* Main Blog Home Page */
+
+/* Alternate Img on left then right */
+
+.card--blog-home-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.card--blog-home-posts.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.card--blog-home-posts.reverse .card--blog-home-image {
+  grid-column: 2;
+}
+
+.card--blog-home-posts.reverse .card--blog-home-text {
+  grid-column: 1;
+}
+
+/* Rest of CSS for Main Blog Home Page */
+
+.section--blog-home-posts {
+	padding: 2em; /* Adds white space around the entire blog section */
+	max-width: 1200px;
+	margin: 0 auto; /* Center the section */
+}
+
+.card--blog-home-posts {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2em;
+	align-items: start;
+	margin-bottom: 3em;
+	border: none;
+  	border-bottom: none; /* Just in case there's a default line */
+	padding: 1.5em;
+}
+  
+  /* Left column: cover image */
+.card--blog-home-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 0.5em;
+}
+  
+  /* Right column: title, date, summary */
+.card--blog-home-text {
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+	gap: 1em;
+}
+  
+  /* Child elements */
+.card--blog-home-title {
+	font-size: 1.8rem;
+	margin: 0;
+}
+  
+.card--blog-home-date {
+	font-size: 0.95rem;
+	color: var(--clr-dark-deep-brown);
+}
+  
+.card--blog-home-summary {
+	font-size: 1rem;
+	line-height: 1.6;
+	margin: 0;
+}
+  
+.card--blog-home-link a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: var(--clr-dark-deep-brown);
+}
+  
+/* Responsive: Stack image and text */
+@media (max-width: 768px) {
+	.card--blog-home-posts {
+	  grid-template-columns: 1fr;
+}
+  
+.card--blog-home-text {
+	  grid-template-rows: auto auto auto auto;
+	}
+}
+
+
 /* Blog Posts */
 
 /* Utility: offset main content for fixed header */

@@ -6,83 +6,82 @@ import { getCollection } from 'astro:content';
 import { formatDate } from '../../utils/formatDate.js';
 
 const blogPosts = (await getCollection('blog'))
-	.sort((postA, postB) => {
-		const postADate = new Date(postA.data.pubDate);
-		const postBDate = new Date(postB.data.pubDate);
-
-		return postBDate.getTime() - postADate.getTime();
-	});
+  .sort((postA, postB) => {
+    const postADate = new Date(postA.data.pubDate);
+    const postBDate = new Date(postB.data.pubDate);
+    return postBDate.getTime() - postADate.getTime();
+  });
 ---
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Blog | Ginger Kiwi</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog | Ginger Kiwi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <style is:global>
+      @import "../../styles/css-reset.css";
+      @import "../../styles/variables.css";
+      @import "../../styles/styles.css";
+    </style>
+  </head>
+  <body>
+    <Header />
 
-		<!-- ✅ Updated for Astro's current syntax -->
-		<style is:global>
-		@import "../../styles/css-reset.css";
-		@import "../../styles/variables.css";
-		@import "../../styles/styles.css";
-		</style>
-	</head>
-	<body>
-		<Header />
+    <main id="main-content">
+      <h1>Blog posts</h1>
+      <p class="p-underconstruction">
+        June, 2025: Yes, the layout on this page is really janky! This website is being completely redesigned and coded from scratch in Astro.js.
+      </p>
+      <p class="p-underconstruction">
+        Look for the completeted design as well as blog articles and
+        <a href="https://www.youtube.com/@GingerKiwiOnWheels" target="_blank" rel="noopener">
+          GingerKiwiOnWheels
+        </a> YouTube highlights in July, 2025
+      </p>
 
-		<h1>Blog posts</h1>
-		<p class="p-underconstruction">
-			June, 2025: Yes, the layout on this page is really janky! This website is being completely redesigned and coded from scratch in Astro.js. <p/>
-			<p class="p-underconstruction">Look for the completeted design as well as blog articles and <a
-				href="https://www.youtube.com/@GingerKiwiOnWheels"
-				target="_blank"
-				rel="noopener"
-			>GingerKiwiOnWheels</a> YouTube highlights in July, 2025
-		</p>
-		
-	</section>
-		<div id="main-content">
-      		<!-- SECTION: POSTS -->
-			<div class="section--posts" id="posts">
-				<div class="posts--grid">
-					{blogPosts.map(({ slug, data: { title, imageAlt, coverImage, pubDate, summary } }) => (
-						<article class="card--posts">
-							<Picture
-								src={coverImage}
-								alt={imageAlt || `Cover image for the article titled ${title}`}
-								width="600"
-								height="600"
-								loading="lazy"
-								decoding="async"
-								class="card--post-image"
-							/>
+      <!-- SECTION: BLOG POSTS -->
+      <section class="section--blog-home-posts" id="posts">
+        <div class="posts--grid-blog-home">
+          {blogPosts.map(({ slug, data: { title, imageAlt, coverImage, pubDate, summary } }) => (
+            <article class="card--blog-home-posts">
+              <Picture
+                src={coverImage}
+                alt={imageAlt || `Cover image for the article titled ${title}`}
+                width="600"
+                height="600"
+                loading="lazy"
+                decoding="async"
+                class="card--blog-home-image"
+              />
 
-							<header class="card--header">
-								<a href={`/blog/${slug}`}>
-									<h2>{title}</h2>
-								</a>
+              <div class="card--blog-home-text">
+                <div class="card--blog-home-meta">
+                  <h3 class="card--blog-home-title">
+                    <a href={`/blog/${slug}`}>{title}</a>
+                  </h3>
+                  <p class="card--blog-home-date">
+                    <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+                  </p>
+                </div>
 
-								<aside class="card--pub-date">
-									<p><time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time></p>
-								</aside>
-							</header>
+                <p class="card--blog-home-summary">{summary || ''}</p>
 
-							<p class="card--post-content">{summary || ''}</p>
+                <footer class="card--blog-home-footer">
+                  <a href={`/blog/${slug}`}>
+                    <span>Continue reading</span>
+                    <span class="screenreader--only"> about {title}</span>
+                    <span>...</span>
+                  </a>
+                </footer>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </main>
 
-							<footer>
-								<a href={`/blog/${slug}`}>
-									<span>Continue reading</span>
-									<span class="screenreader--only">about {title}</span>
-									<span>...</span>
-								</a>
-							</footer>
-						</article>
-					))}
-				</div>
-			</div>
-		</main>
-		<Footer />
-	</body>
+    <Footer />
+  </body>
 </html>

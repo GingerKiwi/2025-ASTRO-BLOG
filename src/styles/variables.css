@@ -1,22 +1,27 @@
 :root {
-	--ff-big: 'Alice', serif;
+	--ff-big: 'Federo', serif;
 	/* --ff-primary: "Marcellus", serif; */
 	--ff-body: 'Work Sans', sans-serif;
-	--clr-bg-light: #f2eae4;
-	--clr-bg-dark: #211c16;
+	--clr-purple-tilite: #9A4BB8; /* brand colour - matches anodizing on my wheelchair */
+	--clr-very-light-purple-tilite: #E7A8FF;
+	--clr-bg-light: #ffffff;
+	--clr-bg-dark: #351C3E;
+	--clr-heading-02: #9A4BB8;
+	/* --clr-bg-dark: #38273E; */
+	--clr-green: #A9C661;
+	--clr-light-green: #aed197;
+	--clr-very-light-green: #cff2a8;
 	--clr-cream: #f2eae4;
-	--clr-dark-deep-brown: #211c16;
+	--clr-dark-deep-brown: #38273E;
 	--clr-pure-white: #ffffff;
 	--clr-pure-black: #000000;
-	--clr-plum: #6f4e5b;
+
+	/* Old colour scheme */
 	--clr-purple-youtube: #7f357a;
+	--clr-plum: #6f4e5b;
 	--clr-light-plum: #cc8797;
 	--clr-very-light-plum: #d3b4bb;
 	--clr-dark-plum: #544545;
-	--clr-green: #5b6f4e;
-	/* --clr-green: #357F3F; */
-	--clr-light-green: #aed197;
-	--clr-very-light-green: #cff2a8;
 	--clr-almost-white: #fefdfd;
 	--clr-purple: #9032eb;
 	--clr-grey-medium: #58585c;
@@ -29,3 +34,4 @@
 	--clr-gradient-stop-03: #00000a; /* same as -clr-almost-black */
 	--spacer: 1rem;
 }
+

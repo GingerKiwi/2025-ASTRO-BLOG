@@ -7,9 +7,10 @@ import Footer from '../components/Footer.astro';
     <meta charset="UTF-8" />
     <title>Ginger Kiwi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Alice&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet" />
+	<!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- ✅ Updated for Astro's current syntax -->
     <style is:global>
@@ -31,13 +32,16 @@ import Footer from '../components/Footer.astro';
 						<p class="p--tagline"></p>
 						<p class="p-underconstruction">
 							June, 2025: This website is being completely redesigned and coded from scratch in Astro.js. <p/>
-							<p class="p-underconstruction">Look for the completeted design as well as blog articles and <a
-								href="https://www.youtube.com/@GingerKiwiOnWheels"
-								target="_blank"
-								rel="noopener"
-							>GingerKiwiOnWheels</a> YouTube highlights in July, 2025
+							<p class="p-underconstruction">Look for the completeted design as well as blog articles and <a href="https://www.curbcuts.fm" target="_blank" rel="noopener">
+								Curb Cuts and Conversations podcast
+							  </a>highlights in August, 2025
 						</p>
 						<!-- <a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a> -->
+					</section>
+					<!-- SECTION: PODCASTS -->
+					<section class="section-podcast" id="podcast">
+						<h2>Curb Cuts and Conversations Podcast</h2>
+						<iframe src="https://player.rss.com/curbcuts?theme=light&v=2" width="100%" height="393px" title="Sara Hendren, author of "What Can a Body Do? How W" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/curbcuts">Sara Hendren, author of "What Can a Body Do? How W | RSS.com</a></iframe>
 					</section>
 
 					<!-- SECTION: POSTS -->
@@ -159,7 +163,6 @@ import Footer from '../components/Footer.astro';
 					<!-- SECTION: CONTACT -->
 
 					<section class="section--contact" id="contact">
-						<img src="/assets/logo-brand.png" class="logo--gk-contact" alt="Ginger Kiwi logo" />
 						<h2 class="heading--gk">Elizabeth M<sup>c</sup>Cready</h2>
 						<!-- <p class="p--tagline">Tagline</p> -->
 						<a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a>

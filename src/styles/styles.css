@@ -11,17 +11,19 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--ff-big); }
 
-h1 { color: var(--clr-purple-youtube); }
+h1 { color: var(--clr-purple-tilite);
+	font-variant: uppercase;
+}
 
 h2 {
-	color: var(--clr-green);
+	color: var(--clr-heading-02);
 	font-size: 4rem;
 	font-weight: 700;
 	text-align: center;
 }
 
 h3 {
-	color: var(--clr-purple-youtube);
+	color: var(--clr-purple-tilite);
 	font-size: 2.375rem;
 	font-weight: 600;
 }
@@ -38,7 +40,7 @@ p {
 }
 
  a {
-	color: var(--clr-purple-youtube);
+	color: var(--clr-purple-tilite);
 	text-decoration: underline;
 }
 /*
@@ -133,7 +135,7 @@ header {
 	text-align: center;
 }
 
-.section--hero h1 { color: var(--clr-purple-youtube); }
+.section--hero h1 { color: var(--clr-purple-tilite); }
 
 .p--tagline {
 	font-size: 2.75em;
@@ -178,7 +180,7 @@ nav ul {
 }
 
 nav a {
-	color: var(--clr-cream);
+	color: var(--clr-pure-white);
 	display: block;
 	font-size: 1.5rem;
 	font-weight: 500;
@@ -194,7 +196,7 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-	background-color: var(--clr-dark-deep-brown);
+	background-color: var(--clr-bg-dark);
 	text-decoration: underline;
 	text-decoration-color: var(--clr-light-green);
 	text-underline-offset: 10px;
@@ -202,7 +204,7 @@ nav a:hover, nav a:focus {
 
 nav a:active {
 	background-color: var(--clr-bg-light);
-	color: var(--clr-dark-deep-brown);
+	color: var(--clr--pure-black);
 	font-weight: 700;
 	text-decoration: underline;
 	text-underline-offset: 10px;
@@ -215,7 +217,7 @@ ul { list-style: none; }
 	align-self: center;
 	background: none;
 	border: none;
-	color: var(--clr-cream);
+	color: var(--clr-pure-white);
 	display: none;
 	grid-area: nav;
 	justify-self: end;
@@ -223,7 +225,7 @@ ul { list-style: none; }
 }
 
 #mobile-nav-trigger:hover, #mobile-nav-trigger:focus { color: var(--clr-very-light-green); }
-#mobile-nav-trigger:active { color: var(--clr-light-purple); }
+#mobile-nav-trigger:active { color: var(--clr-purple-tilite); }
 
 #mobile-nav:popover-open {
 	align-items: start;
@@ -249,12 +251,12 @@ ul { list-style: none; }
 #mobile-nav button {
 	background: none;
 	border: none;
-	color: var(--clr-cream);
+	color: var(--clr-pure-white);
 	padding: 1rem;
 }
 
 #mobile-nav button:hover, #mobile-nav button:focus { color: var(--clr-very-light-green); }
-#mobile-nav button:active { color: var(--clr-light-purple); }
+#mobile-nav button:active { color: var(--clr-purple-tilite); }
 
 @media (max-width: 40rem) {
 	#mobile-nav-trigger { display: inline; }
@@ -275,7 +277,7 @@ ul { list-style: none; }
 }
 
 .a--cta {
-	background-color: var(--clr-purple-youtube);
+	background-color: var(--clr-purple-tilite);
 	border-radius: 24px;
 	color: #fefdfd;
 	display: block;
@@ -300,8 +302,13 @@ ul { list-style: none; }
 	}
 }
 
+/* SECTION: PODCAST */
+
+
+
 /* SECTION: POSTS */
 
+.section-podcast,
 .section--posts,
 .section--our-work,
 .section--about,
@@ -362,7 +369,7 @@ ul { list-style: none; }
 .list--post { /* list-style-image: url(/assets/icon-checkmark-light-purple.png); */ }
 
 .list--post li {
-	color: var(--clr-purple-youtube);
+	color: var(--clr-purple-tilite);
 	font-size: 1.25rem;
 	padding-left: 1em;
 }
@@ -373,7 +380,7 @@ ul { list-style: none; }
 }
 
 .card--posts {
-	border: var(--clr-purple-youtube) 4px solid;
+	border: var(--clr-green) 4px solid;
 	margin: 1rem 0.25rem;
 	/* border-radius: 24px; */
 	padding: 0.75rem 1rem;
@@ -382,8 +389,8 @@ ul { list-style: none; }
 .icon--posts { max-width: 4rem; }
 
 .a--cta-post {
-	border: var(--clr-purple-youtube) 2px solid;
-	color: var(--clr-purple-youtube);
+	border: var(--clr-purple-tilite) 2px solid;
+	color: var(--clr-purple-tilite);
 	display: inline-block;
 	font-family: var(--ff-primary);
 	font-size: 1.75rem;
@@ -611,7 +618,7 @@ footer nav ul {
 }
 
 .copyright {
-	color: var(--clr-very-light-plum);
+	color: var(--clr-very-light-purple-tilite);
 	grid-column-end: 3;
 	grid-column-start: 2;
 	grid-row-end: 4;

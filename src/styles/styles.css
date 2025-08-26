@@ -780,7 +780,7 @@ article.blog-post {
 		padding-top: 0;
 	}
 
-	.blog-post h2 {
+	:is(.blog-post, .section-podcast) h2 {
 		font-size: 1.5rem;
 	}
 

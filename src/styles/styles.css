@@ -269,8 +269,13 @@ ul { list-style: none; }
 @media (max-width: 500px) {
 	.section--hero h1 {
 		margin-bottom: 1rem;
+		font-size: 2rem;
 		margin-top: 0;
 		padding-top: 0;
+	}
+
+	.blog-post h2 {
+		font-size: 1.5rem;
 	}
 
 	.p--tagline { font-size: 1.5rem; }

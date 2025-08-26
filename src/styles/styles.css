@@ -68,6 +68,7 @@ section {
 	max-width: 35em;     /* ~40 characters per line for typical fonts */
 	text-align: left;    /* Improves readability */
 	line-height: 1.6;    /* Comfortable line spacing */
+	padding-inline: 1rem;
   }
 /* A11y */
 

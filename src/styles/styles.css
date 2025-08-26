@@ -266,21 +266,6 @@ ul { list-style: none; }
 /* SECTION: HERO */
 .bg--hero-nav, .section--contact { background-color: var(--clr-bg-light); }
 
-@media (max-width: 500px) {
-	.section--hero h1 {
-		margin-bottom: 1rem;
-		font-size: 2rem;
-		margin-top: 0;
-		padding-top: 0;
-	}
-
-	.blog-post h2 {
-		font-size: 1.5rem;
-	}
-
-	.p--tagline { font-size: 1.5rem; }
-}
-
 .a--cta {
 	background-color: var(--clr-purple-tilite);
 	border-radius: 24px;
@@ -785,4 +770,19 @@ article.blog-post {
 /* List item spacing */
 .blog-post li {
   margin-bottom: 0.5em;
+}
+
+@media (max-width: 500px) {
+	.section--hero h1 {
+		margin-bottom: 1rem;
+		font-size: 2.5rem;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.blog-post h2 {
+		font-size: 1.5rem;
+	}
+
+	.p--tagline { font-size: 1.5rem; }
 }

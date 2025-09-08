@@ -10,11 +10,11 @@ imageAlt: Photo of a wood log lodge with a green roof in the mountains, There’
 ​
 **WORKING DRAFT!**
 
-### Introduction
+## Introduction
 
 Though I have some hearing loss and tinnitus, and I used to be functionally fluent in ASL, I'm not Deaf/deaf, Hard of Hearing, or CODA (Child of a Deaf Adult). So, instead of writing my own take on Deaf Culture and ASL 101 I'm sharing a curated list of video content by Deaf and CODA content creators and public speakers. Hopefully, this will get you started on celebrating Deaf Awareness Month and learning more about the richness of Deaf Culture and signing languages. This list should be especially helpful for other marketing and communication professionals.
 
-### Storytime of ...
+## A Story: How I Learned ASL and About Deaf Culture
 
 The summer I started teaching I worked at an outdoor education centre in the Rocky Mountains. On the application form were the usual things you’d you’d expect to find:​
 
@@ -23,35 +23,80 @@ The summer I started teaching I worked at an outdoor education centre in the Roc
 - Do you have rock climbing experience?
 - Do you have canoeing certifications? ​
     
-... and then there was what is your level of ASL American Sign Language?​​
-    
+... and then there was "What is your level of ASL American Sign Language?​​"
 
 You see, years before I worked there, the outdoor ed centre would run a one week Deaf camp at the smaller of the two lodges. Deaf kids, hard of hearing (HOH) kids, and those who are CODAs (children of deaf adults) whose first language was American Sign Language would come to spend a week in a fun environment where almost everyone spoke ASL and/or signed English.​
 
 Because campers at both the small and big lodges would mix and share activities, some ASL started to become part of the culture for the kids and teens. And what do kids learn first from each other? How to say the bad words in a language that not all the adults know!​  
 So within a few years learning some basic signed English and ASL phrases became part of staff training for everyone. There was even a session on “swearing in ASL”, but also we learned to sing songs in sign language, how to deal with Grizzly bears and Deaf kids, teach canoeing to campers who were Deaf and hard of hearing, and about Deaf culture.​  
 ​
-As more staff took their ASL certifications, and learned ASL in staff training it became part of the adult staff culture too. Some basic signs came in handy communicating over a group of loud kids across a big field. ASL was also very handy on nights off in loud bars and music gigs in Canmore and Banff.​
+As more staff took their ASL certifications and learned ASL in staff training, it became part of the adult staff culture too. Some basic signs came in handy communicating over a group of loud kids across a big field. ASL was also very handy on nights off in loud bars and music gigs in Canmore and Banff.​
 ​  
-By the time I started, there wasn’t a separate Deaf camp session. It was just part of Centre’s mindset and the culture.​ 
-
-Having an accessibility first mindset and culture benefited everyone – not just the Deaf, hard of hearing and CODA kids.​
+By the time I started my spring and summer there, there wasn’t a separate Deaf camp session. It was just part of Centre’s mindset and the culture.​ Having an accessibility first mindset and culture benefited everyone – not just the Deaf, hard of hearing and CODA kids.​
 
 *Tip: Turn on captions ["CC"] for all of the videos.*
-### A Curated List of Deaf and CODA Content Creators and Public Speakers
+## A Curated List of Deaf and CODA Content Creators and Public Speakers
 
 *Tip: Turn on captions ["CC"] for all of the videos.*
 
-##### [Chrissy Marshall](https://www.youtube.com/@ChrissyMarshall_)
+One of the first things I learned about Deaf, Hard of Hearing, and CODA is that it's best to learn from those in the community and not from the hearing community. So here's a curated list of Deaf and CODA content creators and public speakers. I've included a few videos from each of them to get you started, along with links to their socials and/or website. 
 
-Chrissy Marshall is a Deaf writer and film director and a graduate of University of Southern California's School of Cinematic Arts.  She has over 192,000 followers on YouTube. Chrissy uses ASL and doesn't "voice" in her videos. Turn on the [CC] to follow along. 
-Chrissy's website [https://www.chrissymarshall.com](https://www.chrissymarshall.com)
+1. [Chrissy Marshall](#chrissy-marshall)
+2. [Jessica Kellgren-Fozard](#jessica-kellgren-fozard)
+3. [Jon Urqhart](#jon-urqhart)
+4. [Meryl Evans](#meryl-evans)
+5. [Nakia Smith](#nakia-smith)
+6. [Natasha Wilcock](#natasha-wilcock)
+7. [Rikki Poynter](#rikki-poynter)
+8. [Ryan Alex and Ellen Mika (Deaf/hearing couple)](#sign-duo)
+
+_______
+<h3 id="chrissy-marshall">Chrissy Marshall</h3>
+
+Chrissy Marshall is a Deaf writer and film director and a graduate of University of Southern California's School of Cinematic Arts.  She has over 192,000 followers on YouTube. Chrissy uses ASL and doesn't "voice" in her videos. She has a lot of videos that help teach hearing and non-signing people ASL, as well as popular songs. Turn on the [CC] to follow along with all of her videos. 
+
+#### Chrissy's Socials
+
+- Chrissy's website [https://www.chrissymarshall.com](https://www.chrissymarshall.com)
+- [YouTube](https://www.youtube.com/@ChrissyMarshall_)
+- [Instagram](https://www.instagram.com/chrissymarshall_/)
+- [LinkedIn](https://www.linkedin.com/in/chrissy-marshall-663b4013b/)
+#### Chrissy Marshall's Videos
+
+***Turn on captions ["CC"] for all of the videos.***
 
 - [Dos and Don'ts of Interacting with the Deaf Community](https://www.youtube.com/watch?v=pDA_EXFTpxo&t=2s)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pDA_EXFTpxo?si=wOuYnV2vBMe8oXF5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-##### Jon Urquhart - CODA (Child of a Deaf-Blind Adult)
+- [HELPFUL ASL SIGNS (especially for my neurodivergent friends)](https://youtu.be/lfn8b80J8EM?si=pPpiKCvME5XnJmhi)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lfn8b80J8EM?si=_m-Wy01_nL1d9GxJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+_____
+<h3 id="jessica-kellgren-fozard">Jessica Kellgren-Fozard aka "Jessica Out of the Closet</h3>
+Jessica is a Deaf YouTuber with almost 2 million followers. She's really fun and quite British! She speaks on a wide-range of topics including: vintage fashion, LGBTQ+ history and culture, being a disabled lesbian mom. Her wife Claudia is in many of her videos. While they show their toddler son and twin girls, they obscure their faces. In addition to being Deaf, Jessica has Ehlers-Danlos Syndrome, several neurological conditions, and ADHD. (It's though Jessica's content that I started to figure out my medical mysteries!) 
+
+In her earlier videos Jessica signs in Signed Supported English (SSE) using British Sign Language (BSL) signs and English-language grammar. (The first video below discusses the difference.) However, as her channel grew and she got a more global audience she stopped signing as to not confuse her viewers that speak other sign languages. Her channel has human-generated captions.
+
+#### Jessica's Videos
+
+- Why I Don't Sound Deaf // International Week of the Deaf [CC]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/72HS6nTgeOE?si=KBkL2sZ18viBZwCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Who Are The 'Defective Race'?! // Alexander Graham Bell [CC]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ywNPQgZscXs?si=Lk3q4vwXjMwUM79u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+- 13 Things My Hearing Friends Should Know // International Week of the Deaf [CC]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xQFuL2KYRdc?si=7DYGChM1YGlBdRZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+_____
+
+<h3 id="jon-urqhart">Jon Urquhart - CODA (Child of a Deaf-Blind Adult)</h3>
 
 Jon's first language was American Sign Language. He has over 350 shorts mostly about ASL and being a CODA on [YouTube](https://www.youtube.com/@Jonurquhart_) that are typically cross-posted on [Instagram](instagram.com/jonurquhart_) and [TikTok](tiktok.com/@drunkcrier?lang=en). Jon is a professional ASL interpreter and founder of [ASLSpring](https://aslspring.com).
 
@@ -59,17 +104,22 @@ Jon's first language was American Sign Language. He has over 350 shorts mostly a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qp6Np0KicQQ?si=iMeLiOZZ6USfJwpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-##### [Rikki Poynter](https://www.youtube.com/@rikkipoynter)
+_____
+<h3 id="meryl-evans">Meryl Evans</h3>
 
-Rikki Poynter is a is a content creator, writer, accessibility consultant, and public speaker. In 2016 she started the ***"No More Craptions"*** grassroots campaign to advocate for human generated captions on social media. She has been creating content on her YouTube channel consistently since 2010.
+Meryl Evans is a LinkedIn Top Voice, accessibility and digital marketing consultant, author, and IAAP [Certified Professional in Accessibility Core Competencies (CPACC)](https://meryl.net/_wp_link_placeholder). Despite knowing the power of video, Meryl initially shied away from creating it due to her accent. But the wonderful response to her first videos led to her to continue creating more. Her insightful TedX talk during the pandemic highlighted that it was an opportunity to change some things for the better.
 
-She's also known for her *"Shit Hearing People Say (Things You Don't Say to Deaf & Hard of Hearing)"* which went viral and has over 560,000 views on YouTube
+[Meryl is very active on LinkedIn](https://www.linkedin.com/in/meryl/) and is a pleasure to chat with and follow. Her LinkedIn feed is a great resource for anyone wanting to learn more about accessibility, but especially those in marketing and content creation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-O4YcVQt5NM?si=UDaf4GqzjTmZVelx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+You can also find Meryl on:
+- Her website:[https://meryl.net](https://meryl.net)
+- [Instagram](http://instagram.com/merylke) and
+- [YouTube](https://www.youtube.com/merylkevans)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wCGko6m_WZQ?si=Y9UfzEaWAzvE1hlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wx8gGP79QTY?si=RVI1_khpgiY_2vxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-##### [Nakia Smith - AKA "Charmay](Black American Sign Language Interpreter and Deaf Advocate)
+______
+<h3 id="nakia-smith">Nakia Smith - AKA "Charmay" Black American Sign Language Interpreter and Deaf Advocate</h3>
 
 Nakia Smith is a Deaf translator, actor, and content creator with over 400,000 followers on TikTok and XXX on Instagram. A speaker and advocate of Black American Sign Language, she interpreted the streaming movie *Sinners* on HBO Max. When asked about why that role was important to her, Nakia replied: 
 
@@ -94,31 +144,36 @@ To learn more about the history of BASL read the American Blackstory's February,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l2h2lC0vlX4?si=as6z3g40JLA6S7Pf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Natasha Wilcock - Moving Beyond Deaf Awareness to Deaf Insight
+______
+<h3 id="natasha-wilcock">Natasha Wilcock - Moving Beyond Deaf Awareness to Deaf Insight</h3>
 
 Natasha Wilcock is a Deaf doctor with the National Health Service (NHS) in the UK. In her 2024 TedXNHS talk Natasha voices while a British Sign Language (BSL) interpreter signs. BSL is a distinct language from American Sign Language (ASL). To tackle the issues that Deaf patients and Deaf staff face, Natasha founded [IDA](https://www.ida-training.com/about-us) to offer education and training led by Deaf healthcare professionals
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqKW5D7jVqI?si=9TWT3_-6Q49UGYVn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+______
 
-##### [Meryl Evans](https://meryl.net)
+<h3 id="rikki-poynter">Rikki Poynter</h3>
 
-Meryl Evans is a LinkedIn Top Voice, accessibility and digital marketing consultant, author, and IAAP [Certified Professional in Accessibility Core Competencies (CPACC)](https://meryl.net/_wp_link_placeholder). Despite knowing the power of video, Meryl initially shied away from creating it due to her accent. But the wonderful response to her first videos led to her to continue creating more. Her insightful TedX talk during the pandemic highlighted that it was an opportunity to change some things for the better.
+Rikki Poynter is a is a content creator, writer, accessibility consultant, and public speaker. In 2016 she started the ***"No More Craptions"*** grassroots campaign to advocate for human generated captions on social media. She has been creating content on her YouTube channel consistently since 2010.
 
-[Meryl is very active on LinkedIn](https://www.linkedin.com/in/meryl/) and is a pleasure to chat with and follow. Her LinkedIn feed is a great resource for anyone wanting to learn more about accessibility, but especially those in marketing and content creation.
+She's also known for her *"Shit Hearing People Say (Things You Don't Say to Deaf & Hard of Hearing)"* which went viral and has over 560,000 views on YouTube.
 
-You can also find Meryl on:
-- [Instagram](http://instagram.com/merylke) and
-- [YouTube](https://www.youtube.com/merylkevans)
+- [YouTube](https://www.youtube.com/@rikkipoynter)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wx8gGP79QTY?si=RVI1_khpgiY_2vxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-O4YcVQt5NM?si=UDaf4GqzjTmZVelx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### LinkedIn
 
-#### Feature Films
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wCGko6m_WZQ?si=Y9UfzEaWAzvE1hlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-CODA
+n
 
-#### Organizations
+
+
+
+
+
+
+
 
 
 ​

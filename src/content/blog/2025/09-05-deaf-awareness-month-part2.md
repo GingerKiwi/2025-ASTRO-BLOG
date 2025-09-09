@@ -3,20 +3,21 @@ title: "Deaf Awareness Month: A Curated List of Content by Deaf and CODA Creator
 summary: September is Deaf Awareness Month. Though I have some hearing loss and tinnitus, and I used to be functionally fluent in ASL, I'm not Deaf/deaf, Hard of Hearing, or CODA (Child of a Deaf Adult). So, instead of writing my own take on Deaf Culture and ASL 101 I'm sharing a curated list of video content by Deaf and CODA content creators and public speakers. This article should be especially helpful for marketing and communication professionals.
 pubDate: 2025-09-05
 canonical: https://gingerkiwi.blog/blog/2025/09-02-deaf-awareness-month/
-coverImage: ../assets/CCH.jpg
+coverImage: ../assets/Flag_of_the_Deaf_Community.jpg
 imageAlt: Photo of a wood log lodge with a green roof in the mountains, There’s a Canadian flag flying on a flagpole in the middle.
 ---
-[Photo of a wood log lodge with a green roof in the mountains, There’s a Canadian flag flying on a flagpole in the middle.]​  
-​
+
 **WORKING DRAFT!**
 
 ## Introduction
 
 Though I have some hearing loss and tinnitus, and I used to be functionally fluent in ASL, I'm not Deaf/deaf, Hard of Hearing, or CODA (Child of a Deaf Adult). So, instead of writing my own take on Deaf Culture and ASL 101 I'm sharing a curated list of video content by Deaf and CODA content creators and public speakers. Hopefully, this will get you started on celebrating Deaf Awareness Month and learning more about the richness of Deaf Culture and signing languages. This list should be especially helpful for other marketing and communication professionals. 
 
-This is the first part of a two article series. I've embedded videos for each creator and public speaker in the list, so splitting the full article into two parts will help those who are reading/listening to this on mobile.
+This is the second part of a two article series. I've embedded videos for each creator and public speaker in the list, so splitting the full article into two parts will help with loading time for those who are reading/listening to this on mobile, or a slow internet connection.
 
 But first the story about how I learned ASL and about Deaf culture. ...
+
+![Photo of a wood log lodge with a green roof in the mountains, There’s a Canadian flag flying on a flagpole in the middle.](../assets/CCH.jpg "Rocky Moutain YMCA")
 
 ## Storytime: How I Learned ASL and About Deaf Culture
 
@@ -33,16 +34,16 @@ You see, years before I worked there, the outdoor ed centre would run a one week
 
 Because campers at both the small and big lodges would mix and share activities, some ASL started to become part of the culture for the kids and teens. And what do kids learn first from each other? How to say the bad words in a language that not all the adults know!​  
 
-So within a few years learning some basic signed English and ASL phrases became part of staff training for everyone. There was even a session on “swearing in ASL”, but also we learned to sing songs in sign language, how to deal with Grizzly bears and Deaf kids, teach canoeing to campers who were Deaf and hard of hearing, and about Deaf culture.​  
+So within a few years learning some basic signed English and ASL phrases became part of staff training for everyone. There was even a session on “swearing in ASL”, but also we learned to sing songs in sign language, how to deal with Grizzly bears and Deaf kids, teach canoeing to campers who were Deaf and hard of hearing, and about Deaf culture.​
+
 ​
 As more staff took their ASL certifications and learned ASL in staff training, it became part of the adult staff culture too. Some basic signs came in handy communicating over a group of loud kids across a big field. ASL was also very handy on nights off in loud bars and music gigs in Canmore and Banff.​
 ​  
 By the time I started my spring and summer there, there wasn’t a separate Deaf camp session. It was just part of Centre’s mindset and the culture.​ Having an accessibility first mindset and culture benefited everyone – not just the Deaf, hard of hearing and CODA kids.​
 
-*Tip: Turn on captions ["CC"] for all of the videos.*
 ## A Curated List of Deaf and CODA Content Creators and Public Speakers
 
-*Tip: Turn on captions ["CC"] for all of the videos.*
+***Tip: Turn on captions ["CC"] for all of the videos.***
 
 One of the first things I learned about sign languages, and Deaf, Hard of Hearing, and CODA culture is that it's best to learn from those in the community and not from the hearing community. So here's a curated list of Deaf and CODA content creators and public speakers. I've included a few videos from each of them to get you started, along with links to their socials and/or website. 
 

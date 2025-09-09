@@ -6,9 +6,6 @@ canonical: https://gingerkiwi.blog/blog/2025/09-02-deaf-awareness-month/
 coverImage: ../assets/Flag_of_the_Deaf_Community.jpg
 imageAlt: Photo of a wood log lodge with a green roof in the mountains, There’s a Canadian flag flying on a flagpole in the middle.
 ---
-
-**WORKING DRAFT!**
-
 ## Introduction
 
 Though I have some hearing loss and tinnitus, and I used to be functionally fluent in ASL, I'm not Deaf/deaf, Hard of Hearing, or CODA (Child of a Deaf Adult). So, instead of writing my own take on Deaf Culture and ASL 101 I'm sharing a curated list of video content by Deaf and CODA content creators and public speakers. Hopefully, this will get you started on celebrating Deaf Awareness Month and learning more about the richness of Deaf Culture and signing languages. This list should be especially helpful for other marketing and communication professionals. 

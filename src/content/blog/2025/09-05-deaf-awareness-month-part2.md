@@ -41,7 +41,7 @@ As more staff took their ASL certifications and learned ASL in staff training, i
 ​  
 By the time I started my spring and summer there, there wasn’t a separate Deaf camp session. It was just part of Centre’s mindset and the culture.​ Having an accessibility first mindset and culture benefited everyone – not just the Deaf, hard of hearing and CODA kids.​
 
-## A Curated List of Deaf and CODA Content Creators and Public Speakers
+## A Curated List of Deaf and CODA Content Creators and Public Speakers—Part 2
 
 ***Tip: Turn on captions ["CC"] for all of the videos.***
 

@@ -50,11 +50,11 @@ In Part 1:
 5. [Jon Urqhart](#jon-urqhart)
 
 In Part 2:
-1. [Meryl Evans](#meryl-evans)
-2. [Nakia Smith](#nakia-smith)
-3. [Natasha Wilcock](#natasha-wilcock)
-4. [Rikki Poynter](#rikki-poynter)
-5. [Ryan Alex and Ellen Mika (Deaf/hearing couple)](#sign-duo)
+1. [Meryl Evans](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#meryl-evanss)
+2. [Nakia Smith](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#nakia-smith)
+3. [Natasha Wilcock](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#natasha-wilcock)
+4. [Rikki Poynter](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#rikki-poynter)
+5. [Ryan Alex and Ellen Mika (Deaf/hearing couple)](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#sign-duo)
 
 _______
 <h3 id="chrissy-marshall">Chrissy Marshall</h3>
@@ -80,7 +80,7 @@ Chrissy Marshall is a Deaf writer and film director and a graduate of University
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lfn8b80J8EM?si=_m-Wy01_nL1d9GxJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ____
-<h3 id="Elizabeth Harris">Elizabeth (Lizzy) Harris</h3>
+<h3 id="elizabeth-harris">Elizabeth (Lizzy) Harris</h3>
 
 Lizzy is a Deaf content creator who's had multiple videos about sign language and Deaf culture go viral. She's a new mom to a hearing daughter, is finishing college, and recently interpreted her first play. Elizabeth was raised orally, learned to sign later, and uses "simcom" (simultaneous communication) in her videos—signing with English grammar as she speaks. She enjoys music and frequently has videos of her signing in simcom or ASL. She also has really long nails which she speaks about. 
 
@@ -230,7 +230,7 @@ ____
 
 _____
 
-Continue reading part 2 to learn more about sign languages, Deaf/HOH, and CODA culture though video.
+Continue reading [part 2](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1) to learn more about sign languages, Deaf/HOH, and CODA culture though video.
 
 ____
 ## Credits

@@ -50,11 +50,11 @@ One of the first things I learned about sign languages, and Deaf, Hard of Hearin
 For each person in this article there's a short bio about them, links to their social media and two or three embedded videos.
 
 In Part 1:
-1. [Chrissy Marshall](#chrissy-marshall)
-2. [Elizabeth "Lizzy" Harris](#elizabeth-harris)
-3. [Haben Girma](#haben-grima)
-4. [Jessica Kellgren-Fozard](#jessica-kellgren-fozard)
-5. [Jon Urqhart](#jon-urqhart)
+1. [Chrissy Marshall](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#chrissy-marshall)
+2. [Elizabeth "Lizzy" Harris](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#elizabeth-harris)
+3. [Haben Girma](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#haben-grima)
+4. [Jessica Kellgren-Fozard](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#jessica-kellgren-fozard)
+5. [Jon Urqhart](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#jon-urqhart)
 
 In Part 2:
 1. [Meryl Evans](#meryl-evans)
@@ -125,7 +125,7 @@ To learn more about the history of BASL read the American Blackstory's February,
 
 
 ______
-<h3 id="natasha-wilcock">Dr. Natasha Wilcock, Deaf NSH Doctor and Business Woman</h3>
+<h3 id="natasha-wilcock">Dr. Natasha Wilcock, Deaf NHS Doctor and Business Woman</h3>
 
 Natasha Wilcock is a Deaf doctor with the National Health Service (NHS) in the UK. In her 2024 TedXNHS talk Natasha voices while a British Sign Language (BSL) interpreter signs. BSL is a distinct language from American Sign Language (ASL). To tackle the issues that Deaf patients and Deaf staff face, Natasha founded [IDA](https://www.ida-training.com/about-us) to offer education and training led by Deaf healthcare professionals
 
@@ -225,7 +225,7 @@ ____
 
 ____
 
-If you haven't read part 1, you can do so here.
+If you haven't read [part 1, you can do so here](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1.
 ____
 ## Credits
 

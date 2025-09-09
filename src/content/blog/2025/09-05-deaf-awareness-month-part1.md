@@ -120,8 +120,23 @@ allowfullscreen></iframe>
 
 _____
 <h3 id="haben-grima">Haben Grima, Deaf-Blind Lawyer, Public Speaker, Author</h3>
-ADD AND EDIT CONTENT!
-*The first Deafblind person to graduate from Harvard Law School, Haben Girma advocates for equal opportunities for people with disabilities. President Obama named her a White House Champion of Change, and Forbes recognized her in Forbes 30 Under 30. Haben travels the world consulting and public speaking, teaching clients the benefits of fully accessible products and services. H*
+
+Haben Girma, the first Deafblind graduate of Harvard Law School, is a leading advocate for disability rights and equal opportunities. She has been honoured as a White House Champion of Change by President Obama and included in the _Forbes_ 30 Under 30 list. Through her global consulting and public speaking, Haben educates organizations on the value of creating fully accessible products and services. 
+
+I'm currently listening to her audiobook: *"Haben The Deafblind Woman Who Conquered Harvard Law"*. It's a very good read/listen. Even though I've followed her for a while, I wasn't aware of her childhood stories. The book is the August, 2025 read for my <a href="https://www.a11ybookclub.com" 
+   target="_blank" 
+   rel="nofollow noopener noreferrer" 
+   aria-label="Visit the Accessibility Book Club website (opens in a new tab)">
+  Accessibility Book Club.
+</a>
+
+Haben uses a refreshable braille display and a braille interpreter to communicate. If you want to learn more about braille and refreshable braille displays I wrote an article in March, 2024 on the topic. <a href="https://gingerkiwi.dev/blog/2024-03-13-what-are-refreshable-braille-devices/" 
+   target="_blank" 
+   rel="nofollow noopener noreferrer" 
+   aria-label="Read the article: What Are Refreshable Braille Devices? (opens in a new tab)"
+   style="font-style:italic;">
+  "What Are Refreshable Braille Devices?"
+</a> (The article is on my older, software developer blog. There's a known glitch with the heading colours on that site. I'm gradually migrating all my past articles to this site.)
 
 #### Haben's Socials
 
@@ -130,7 +145,6 @@ ADD AND EDIT CONTENT!
 - [Facebook](facebook.com/habengirma)
 - Website: [habengirma.com](habengirma.com)
   
-
 #### Haben Grima's Videos
 
 - An interview with Haben Girma, the first deaf-blind person to graduate from Harvard Law - New Day NW

@@ -45,12 +45,12 @@ import Footer from '../components/Footer.astro';
 
 					<!-- SECTION: POSTS -->
 
-					<section class="section--posts" id="posts">
+					<!-- <section class="section--posts" id="posts">
 						<h2>Featured Articles</h2>
 						<div class="container--posts posts--grid">
 							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
-								<h3 class="heading--post-name">Article Title</h3>
+								
+								<h3 class="heading--post-name">Deaf Awareness Month: A Curated List of Content by Deaf and CODA Creators and Public Speakers (Part 2)</h3>
 								<div class="post--content">
 									<ul class="list--post">
 										<li>
@@ -65,7 +65,7 @@ import Footer from '../components/Footer.astro';
 							</div>
 
 							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
+								
 								<h3 class="heading--post-name">Article Title</h3>
 								<div class="post--content">
 									<ul class="list--post">
@@ -81,7 +81,7 @@ import Footer from '../components/Footer.astro';
 							</div>
 
 							<div class="card--posts">
-								<!-- <img src="/assets/icon-speaker.png" class="icon--posts" alt="icon of a person giving a talk"> -->
+								
 								<h3 class="heading--post-name">Article Title</h3>
 								<div class="post--content">
 									<ul class="list--post">
@@ -96,7 +96,7 @@ import Footer from '../components/Footer.astro';
 								<a href="blog.gingerkiwi.dev/article-name" class="a--cta-post">Continue reading</a>
 							</div>
 						</div>
-					</section>
+					</section> -->
 
 					<!-- SECTION: GRAPHIC & UX DESIGN -->
 
@@ -166,13 +166,101 @@ import Footer from '../components/Footer.astro';
 						<!-- <p class="p--tagline">Tagline</p> -->
 						<a href="mailto:liz@gingerkiwi.dev" class="a--cta">Contact Me</a>
 					</section>
-					<p>Connect!
-                
-						LinkedIn: https://www.linkedin.com/in/elizabethmccready/
-						
-						Instagram: @GingerKiwiOnWheels
-						
-						YouTube: @GingerKiwiOnWheels</p>
+<!-- Connect With Me Section -->
+<h2>Connect With Me</h2>
+					<div style="
+					display:flex; 
+					justify-content:center; 
+					align-items:center; 
+					min-height:50vh; 
+					text-align:center;
+				  ">
+					<div style="display:flex; gap:1rem; margin-top:1.5rem; flex-wrap:wrap;">
+
+	<!-- LinkedIn Button -->
+	<a href="https://www.linkedin.com/in/elizabethmccready/" 
+	   target="_blank" 
+	   rel="noopener noreferrer" 
+	   aria-label="Connect with me on LinkedIn" 
+	   style="text-decoration:none;">
+	  <button 
+		style="
+		  background-color:blue;
+		  color:white;
+		  font-size:1rem;
+		  padding:0.5rem 1rem;
+		  border:none;
+		  border-radius:8px;
+		  cursor:pointer;
+		  transition:background-color 0.2s ease, transform 0.1s ease;
+		"
+		onmouseover="this.style.backgroundColor='darkblue';" 
+		onmouseout="this.style.backgroundColor='blue';" 
+		onfocus="this.style.outline='3px solid yellow'; this.style.outlineOffset='3px';" 
+		onblur="this.style.outline='none';" 
+		onmousedown="this.style.backgroundColor='navy'; this.style.transform='scale(0.98)';" 
+		onmouseup="this.style.backgroundColor='darkblue'; this.style.transform='scale(1)';">
+		LinkedIn
+	  </button>
+	</a>
+  
+	<!-- Instagram Button -->
+	<a href="https://www.instagram.com/GingerKiwiOnWheels/" 
+	   target="_blank" 
+	   rel="noopener noreferrer" 
+	   aria-label="Follow me on Instagram" 
+	   style="text-decoration:none;">
+	  <button 
+		style="
+		  background-color:purple;
+		  color:white;
+		  font-size:1rem;
+		  padding:0.5rem 1rem;
+		  border:none;
+		  border-radius:8px;
+		  cursor:pointer;
+		  transition:background-color 0.2s ease, transform 0.1s ease;
+		"
+		onmouseover="this.style.backgroundColor='indigo';" 
+		onmouseout="this.style.backgroundColor='purple';" 
+		onfocus="this.style.outline='3px solid yellow'; this.style.outlineOffset='3px';" 
+		onblur="this.style.outline='none';" 
+		onmousedown="this.style.backgroundColor='darkmagenta'; this.style.transform='scale(0.98)';" 
+		onmouseup="this.style.backgroundColor='indigo'; this.style.transform='scale(1)';">
+		Instagram
+	  </button>
+	</a>
+  
+	<!-- YouTube Button -->
+	<a href="https://www.youtube.com/@GingerKiwiOnWheels" 
+	   target="_blank" 
+	   rel="noopener noreferrer" 
+	   aria-label="Subscribe to my YouTube channel" 
+	   style="text-decoration:none;">
+	  <button 
+		style="
+		  background-color:red;
+		  color:white;
+		  font-size:1rem;
+		  padding:0.5rem 1rem;
+		  border:none;
+		  border-radius:8px;
+		  cursor:pointer;
+		  transition:background-color 0.2s ease, transform 0.1s ease;
+		"
+		onmouseover="this.style.backgroundColor='darkred';" 
+		onmouseout="this.style.backgroundColor='red';" 
+		onfocus="this.style.outline='3px solid yellow'; this.style.outlineOffset='3px';" 
+		onblur="this.style.outline='none';" 
+		onmousedown="this.style.backgroundColor='maroon'; this.style.transform='scale(0.98)';" 
+		onmouseup="this.style.backgroundColor='darkred'; this.style.transform='scale(1)';">
+		YouTube
+	  </button>
+	</a>
+  
+  </div>
+</div>
+  
 				</main>
 
         <Footer />

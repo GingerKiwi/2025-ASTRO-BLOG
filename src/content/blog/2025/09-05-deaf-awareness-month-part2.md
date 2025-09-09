@@ -28,7 +28,7 @@ The summer I started teaching I worked at an outdoor education centre in the Roc
 - Do you have rock climbing experience?
 - Do you have canoeing certifications? ​
     
-... and then there was "What is your level of ASL American Sign Language?​​"
+... and then there was *"What is your level of ASL American Sign Language?​​"*.
 
 You see, years before I worked there, the outdoor ed centre would run a one week Deaf camp at the smaller of the two lodges. Deaf kids, hard of hearing (HOH) kids, and those who are CODAs (children of deaf adults) whose first language was American Sign Language would come to spend a week in a fun environment where almost everyone spoke ASL and/or signed English.​
 
@@ -49,7 +49,7 @@ One of the first things I learned about sign languages, and Deaf, Hard of Hearin
 
 For each person in this article there's a short bio about them, links to their social media and two or three embedded videos.
 
-In Part 1:
+In [Part 1](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1):
 1. [Chrissy Marshall](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#chrissy-marshall)
 2. [Elizabeth "Lizzy" Harris](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#elizabeth-harris)
 3. [Haben Girma](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1#haben-grima)

@@ -25,7 +25,7 @@ The summer I started teaching I worked at an outdoor education centre in the Roc
 - Do you have rock climbing experience?
 - Do you have canoeing certifications? ​
     
-... and then there was "What is your level of ASL American Sign Language?​​"
+... and then there was *"What is your level of ASL American Sign Language?​​"*.
 
 You see, years before I worked there, the outdoor ed centre would run a one week Deaf camp at the smaller of the two lodges. Deaf kids, hard of hearing (HOH) kids, and those who are CODAs (children of deaf adults) whose first language was American Sign Language would come to spend a week in a fun environment where almost everyone spoke ASL and/or signed English.​
 
@@ -49,7 +49,7 @@ In Part 1:
 4. [Jessica Kellgren-Fozard](#jessica-kellgren-fozard)
 5. [Jon Urqhart](#jon-urqhart)
 
-In Part 2:
+In [Part 2](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2):
 1. [Meryl Evans](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#meryl-evanss)
 2. [Nakia Smith](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#nakia-smith)
 3. [Natasha Wilcock](https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part2#natasha-wilcock)

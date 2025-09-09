@@ -201,13 +201,33 @@ Jon's first language was American Sign Language. He has over 350 shorts mostly a
 ____
 ## Share This Article on LinkedIn
 
-<!-- LinkedIn (url, title, summary, source url) -->
+<!-- LinkedIn Share Button -->
 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.gingerkiwi.blog/blog/2025/09-05-deaf-awareness-month-part1&title=Deaf%20Awareness%20Month%3A%20A%20Curated%20List%20of%20Content%20by%20Deaf%20and%20CODA%20Creators%20and%20Public%20Speakers%20(Part%201)&summary=September%20is%20Deaf%20Awareness%20Month.%20Though%20I%20have%20some%20hearing%20loss%20and%20tinnitus%2C%20and%20I%20used%20to%20be%20functionally%20fluent%20in%20ASL%2C%20I'm%20not%20Deaf%2Fdeaf%2C%20Hard%20of%20Hearing%2C%20or%20CODA%20(Child%20of%20a%20Deaf%20Adult).%20So%2C%20instead%20of%20writing%20my%20own%20take%20on%20Deaf%20Culture%20and%20ASL%20101%20I'm%20sharing%20a%20curated%20list%20of%20video%20content%20by%20Deaf%20and%20CODA%20content%20creators%20and%20public%20speakers.%20This%20article%20should%20be%20especially%20helpful%20for%20marketing%20and%20communication%20professionals.%20(Part%201%20of%202)"
    target="_blank" 
-   rel="noopener noreferrer"
-   aria-label="Share this article on LinkedIn">
-   Share on LinkedIn
+   rel="noopener noreferrer" 
+   aria-label="Share this article on LinkedIn"
+   style="text-decoration:none;">
+    <button 
+      style="
+        background-color:blue;
+        color:white;
+        font-size:1rem;
+        padding:0.5rem 1rem;
+        border:none;
+        border-radius:8px;
+        cursor:pointer;
+        transition:background-color 0.2s ease, transform 0.1s ease;
+      "
+      onmouseover="this.style.backgroundColor='darkblue';" 
+      onmouseout="this.style.backgroundColor='blue';" 
+      onfocus="this.style.outline='3px solid yellow'; this.style.outlineOffset='3px';" 
+      onblur="this.style.outline='none';" 
+      onmousedown="this.style.backgroundColor='navy'; this.style.transform='scale(0.98)';" 
+      onmouseup="this.style.backgroundColor='darkblue'; this.style.transform='scale(1)';">
+      Share on LinkedIn
+    </button>
 </a>
+
 _____
 
 Continue reading part 2 to learn more about sign languages, Deaf/HOH, and CODA culture though video.

@@ -98,6 +98,14 @@ section {
 	user-select: none;
 }
 
+.breathe {
+	margin-bottom: 6rem;
+}
+
+.centre-on-pg {
+	text-align:center;
+}
+
 /* HEADER SECTION */
 
 header {

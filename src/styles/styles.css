@@ -618,6 +618,11 @@ footer nav ul {
 	}
 }
 
+.a11y-webring-club {
+	color: var(--clr-very-light-green);
+	padding-top: 4.5rem;
+}
+
 .copyright {
 	color: var(--clr-very-light-purple-tilite);
 	grid-column-end: 3;
